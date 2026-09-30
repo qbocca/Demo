@@ -1,0 +1,1277 @@
+SPCD,COMMON_NAME,GENUS,SPECIES,SCIENTIFIC_NAME,PLANTS_CODE,CORE,EAST,WEST,WOODLAND_CARIBBEAN
+10,Fir spp.,Abies,(spp.),Abies (spp.),ABIES,False,True,True,
+11,Pacific silver fir,Abies,amabilis,Abies amabilis,ABAM,True,False,True,
+12,balsam fir,Abies,balsamea,Abies balsamea,ABBA,True,True,True,
+14,"Santa Lucia fir, bristlecone fir",Abies,bracteata,Abies bracteata,ABBR,True,False,True,
+15,white fir,Abies,concolor,Abies concolor,ABCO,True,False,True,
+16,Fraser fir,Abies,fraseri,Abies fraseri,ABFR,True,True,False,
+17,grand fir,Abies,grandis,Abies grandis,ABGR,True,False,True,
+19,subalpine fir,Abies,lasiocarpa,Abies lasiocarpa,ABLA,True,False,True,
+18,corkbark fir,Abies,lasiocarpa var. arizonica,Abies lasiocarpa var. arizonica,ABLAA,True,False,True,
+20,California red fir,Abies,magnifica,Abies magnifica,ABMA,True,False,True,
+22,noble fir,Abies,procera,Abies procera,ABPR,True,False,True,
+21,Shasta red fir,Abies,shastensis,Abies shastensis,ABSH,True,False,True,
+6036,kauri,Agathis,australis,Agathis australis,AGAU4,False,False,False,C
+6037,Queensland kauri,Agathis,robusta,Agathis robusta,AGRO6,False,False,False,C
+6154,parana pine,Araucaria,angustifolia,Araucaria angustifolia,ARAN15,False,False,False,C
+6157,Norfolk Island pine,Araucaria,heterophylla,Araucaria heterophylla,ARHE12,False,False,False,C
+6331,Callitris columellaris,Callitris,columellaris,Callitris columellaris,CACO2,False,False,False,C
+81,incense-cedar,Calocedrus,decurrens,Calocedrus decurrens,CADE27,True,False,True,
+40,cedar spp.,Chamaecyparis,(spp.),Chamaecyparis (spp.),CHAMA4,False,True,True,
+41,Port-Orford-cedar,Chamaecyparis,lawsoniana,Chamaecyparis lawsoniana,CHLA,True,False,True,
+42,Alaska yellow-cedar,Chamaecyparis,nootkatensis,Chamaecyparis nootkatensis,CHNO,True,False,True,
+43,Atlantic white-cedar,Chamaecyparis,thyoides,Chamaecyparis thyoides,CHTH2,True,True,False,
+6786,Japanese cedar,Cryptomeria,japonica,Cryptomeria japonica,CRJA3,False,False,False,C
+6788,Chinese fir,Cunninghamia,lanceolata,Cunninghamia lanceolata,CULA,False,False,False,C
+50,cypress,Cupressus,(spp.),Cupressus (spp.),CUPRE,False,False,True,C
+51,Arizona cypress,Cupressus,arizonica,Cupressus arizonica,CUAR,True,False,True,
+52,"Baker cypress, Modoc cypress",Cupressus,bakeri,Cupressus bakeri,CUBA,True,False,True,
+53,tecate cypress,Cupressus,forbesii,Cupressus forbesii,CUFO2,True,False,True,
+6795,cedar-of-Goa,Cupressus,lusitanica,Cupressus lusitanica,CULU2,False,False,False,C
+56,MacNab’s cypress,Cupressus,macnabiana,Cupressus macnabiana,CUMA,True,False,True,
+54,Monterey cypress,Cupressus,macrocarpa,Cupressus macrocarpa,CUMA2,True,False,True,
+55,Sargent’s cypress,Cupressus,sargentii,Cupressus sargentii,CUSA3,False,False,True,
+6796,Italian cypress,Cupressus,sempervirens,Cupressus sempervirens,CUSE2,False,False,False,C
+6852,queen sago,Cycas,circinalis,Cycas circinalis,CYCI3,False,False,False,C
+57,"redcedar, juniper spp.",Juniperus,(spp.),Juniperus (spp.),JUNIP,False,True,True,
+61,Ashe juniper,Juniperus,ashei,Juniperus ashei,JUAS,True,True,False,w
+62,California juniper,Juniperus,californica,Juniperus californica,JUCA7,True,False,True,w
+59,redberry juniper,Juniperus,coahuilensis,Juniperus coahuilensis,JUCO11,True,False,True,w
+63,alligator juniper,Juniperus,deppeana,Juniperus deppeana,JUDE2,True,False,True,w
+60,drooping juniper,Juniperus,flaccida,Juniperus flaccida,JUFL,False,True,False,w
+69,oneseed juniper,Juniperus,monosperma,Juniperus monosperma,JUMO,True,False,True,w
+64,western juniper,Juniperus,occidentalis,Juniperus occidentalis,JUOC,True,False,True,
+65,Utah juniper,Juniperus,osteosperma,Juniperus osteosperma,JUOS,True,False,True,w
+58,Pinchot juniper,Juniperus,pinchotii,Juniperus pinchotii,JUPI,True,False,True,w
+66,Rocky Mountain juniper,Juniperus,scopulorum,Juniperus scopulorum,JUSC2,True,True,True,w
+68,eastern redcedar,Juniperus,virginiana,Juniperus virginiana,JUVI,True,True,False,
+67,southern redcedar,Juniperus,virginiana var. silicicola,Juniperus virginiana var. silicicola,JUVIS,False,True,False,
+70,larch spp.,Larix,(spp.),Larix (spp.),LARIX,False,True,True,
+71,tamarack (native),Larix,laricina,Larix laricina,LALA,True,True,True,
+72,subalpine larch,Larix,lyallii,Larix lyallii,LALY,True,False,True,
+73,western larch,Larix,occidentalis,Larix occidentalis,LAOC,True,False,True,
+90,spruce spp.,Picea,(spp.),Picea (spp.),PICEA,False,True,True,
+91,Norway spruce,Picea,abies,Picea abies,PIAB,True,True,False,
+92,Brewer spruce,Picea,breweriana,Picea breweriana,PIBR,True,False,True,
+93,Engelmann spruce,Picea,engelmannii,Picea engelmannii,PIEN,True,False,True,
+94,white spruce,Picea,glauca,Picea glauca,PIGL,True,True,True,
+95,black spruce,Picea,mariana,Picea mariana,PIMA,True,True,True,
+96,blue spruce,Picea,pungens,Picea pungens,PIPU,True,True,True,
+97,red spruce,Picea,rubens,Picea rubens,PIRU,True,True,False,
+98,Sitka spruce,Picea,sitchensis,Picea sitchensis,PISI,True,False,True,
+100,pine spp.,Pinus,(spp.),Pinus (spp.),PINUS,False,True,True,C
+101,whitebark pine,Pinus,albicaulis,Pinus albicaulis,PIAL,True,False,True,
+102,Rocky Mountain bristlecone pine,Pinus,aristata,Pinus aristata,PIAR,True,False,True,
+135,Arizona pine,Pinus,arizonica,Pinus arizonica,PIAR5,True,False,True,
+103,knobcone pine,Pinus,attenuata,Pinus attenuata,PIAT,True,False,True,
+104,foxtail pine,Pinus,balfouriana,Pinus balfouriana,PIBA,True,False,True,
+105,jack pine,Pinus,banksiana,Pinus banksiana,PIBA2,True,True,False,
+8183,Caribbean pine,Pinus,caribaea,Pinus caribaea,PICA18,False,False,False,C
+140,Mexican pinyon pine,Pinus,cembroides,Pinus cembroides,PICE,True,False,True,w
+107,sand pine,Pinus,clausa,Pinus clausa,PICL,True,True,False,
+108,lodgepole pine,Pinus,contorta,Pinus contorta,PICO,True,False,True,
+109,Coulter pine,Pinus,coulteri,Pinus coulteri,PICO3,True,False,True,
+134,border pinyon,Pinus,discolor,Pinus discolor,PIDI3,True,False,True,w
+110,shortleaf pine,Pinus,echinata,Pinus echinata,PIEC2,True,True,False,
+106,"Common pinyon, two-needle pinyon",Pinus,edulis,Pinus edulis,PIED,True,False,True,w
+111,slash pine,Pinus,elliottii,Pinus elliottii,PIEL,True,True,False,
+144,Caribbean pine,Pinus,elliottii var. elliottii,Pinus elliottii var. elliottii,PIELE2,True,True,False,
+112,Apache pine,Pinus,engelmannii,Pinus engelmannii,PIEN2,True,False,True,
+113,limber pine,Pinus,flexilis,Pinus flexilis,PIFL2,True,False,True,
+115,spruce pine,Pinus,glabra,Pinus glabra,PIGL2,True,True,False,
+116,Jeffrey pine,Pinus,jeffreyi,Pinus jeffreyi,PIJE,True,False,True,
+117,sugar pine,Pinus,lambertiana,Pinus lambertiana,PILA,True,False,True,
+118,Chihuahuan pine,Pinus,leiophylla,Pinus leiophylla,PILE,True,False,True,
+142,Great Basin bristlecone pine,Pinus,longaeva,Pinus longaeva,PILO,True,False,True,
+8184,Chinese red pine,Pinus,massoniana,Pinus massoniana,PIMA11,False,False,False,C
+8185,Merkus pine,Pinus,merkusii,Pinus merkusii,PIME2,False,False,False,C
+133,singleleaf pinyon,Pinus,monophylla,Pinus monophylla,PIMO,True,False,True,w
+143,Arizona pinyon pine,Pinus,monophylla var. fallax,Pinus monophylla var. fallax,PIMOF,True,False,True,w
+119,western white pine,Pinus,monticola,Pinus monticola,PIMO3,True,False,True,
+120,bishop pine,Pinus,muricata,Pinus muricata,PIMU,True,False,True,
+136,Austrian pine,Pinus,nigra,Pinus nigra,PINI,True,True,False,
+8186,ocote chino,Pinus,oocarpa,Pinus oocarpa,PIOO2,False,False,False,C
+121,longleaf pine,Pinus,palustris,Pinus palustris,PIPA2,True,True,False,
+8187,Mexican weeping pine,Pinus,patula,Pinus patula,PIPA13,False,False,False,C
+122,ponderosa pine,Pinus,ponderosa,Pinus ponderosa,PIPO,True,True,True,
+123,Table Mountain pine,Pinus,pungens,Pinus pungens,PIPU5,True,True,False,
+138,"four-leaf pine, Parry pinyon pine",Pinus,quadrifolia,Pinus quadrifolia,PIQU,True,False,True,w
+124,Monterey pine,Pinus,radiata,Pinus radiata,PIRA2,True,False,True,
+141,papershell pinyon pine,Pinus,remota,Pinus remota,PIRE5,False,True,False,w
+125,red pine,Pinus,resinosa,Pinus resinosa,PIRE,True,True,False,
+126,pitch pine,Pinus,rigida,Pinus rigida,PIRI,True,True,False,
+127,"gray pine, California foothill pine",Pinus,sabiniana,Pinus sabiniana,PISA2,True,False,True,
+128,pond pine,Pinus,serotina,Pinus serotina,PISE,True,True,False,
+114,southwestern white pine,Pinus,strobiformis,Pinus strobiformis,PIST3,True,False,True,
+129,eastern white pine,Pinus,strobus,Pinus strobus,PIST,True,True,False,
+130,Scotch pine,Pinus,sylvestris,Pinus sylvestris,PISY,True,True,True,
+131,loblolly pine,Pinus,taeda,Pinus taeda,PITA,True,True,False,
+139,Torrey pine,Pinus,torreyana,Pinus torreyana,PITO,True,False,True,
+132,Virginia pine,Pinus,virginiana,Pinus virginiana,PIVI2,True,True,False,
+137,Washoe pine,Pinus,washoensis,Pinus washoensis,PIWA,True,False,True,
+8249,Oriental arborvitae,Platycladus,orientalis,Platycladus orientalis,PLOR80,False,False,False,C
+8273,yucca plum pine,Podocarpus,coriaceus,Podocarpus coriaceus,POCO3,False,False,False,C
+200,Douglas-fir spp.,Pseudotsuga,(spp.),Pseudotsuga (spp.),PSEUD7,False,False,True,
+201,bigcone Douglas-fir,Pseudotsuga,macrocarpa,Pseudotsuga macrocarpa,PSMA,True,False,True,
+202,Douglas-fir,Pseudotsuga,menziesii,Pseudotsuga menziesii,PSME,True,False,True,
+211,redwood,Sequoia,sempervirens,Sequoia sempervirens,SESE3,True,False,True,
+212,giant sequoia,Sequoiadendron,giganteum,Sequoiadendron giganteum,SEGI2,True,False,True,
+220,cypress spp.,Taxodium,(spp.),Taxodium (spp.),TAXOD,False,True,False,
+222,pondcypress,Taxodium,ascendens,Taxodium ascendens,TAAS,True,True,False,
+221,baldcypress,Taxodium,distichum,Taxodium distichum,TADI2,True,True,False,
+223,Montezuma baldcypress,Taxodium,mucronatum,Taxodium mucronatum,TAMU,False,True,False,
+230,yew spp.,Taxus,(spp.),Taxus (spp.),TAXUS,False,True,True,
+231,Pacific yew,Taxus,brevifolia,Taxus brevifolia,TABR2,False,False,True,
+232,Florida yew,Taxus,floridana,Taxus floridana,TAFL,True,True,False,
+240,Thuja spp.,Thuja,(spp.),Thuja (spp.),THUJA,False,True,True,C
+241,northern white-cedar,Thuja,occidentalis,Thuja occidentalis,THOC2,True,True,False,
+242,western redcedar,Thuja,plicata,Thuja plicata,THPL,True,False,True,
+250,torreya (nutmeg) spp.,Torreya,(spp.),Torreya (spp.),TORRE,False,True,True,
+251,California torreya (nutmeg),Torreya,californica,Torreya californica,TOCA,True,False,True,
+252,Florida torreya (nutmeg),Torreya,taxifolia,Torreya taxifolia,TOTA,True,True,False,
+260,hemlock spp.,Tsuga,(spp.),Tsuga (spp.),TSUGA,False,True,True,
+261,eastern hemlock,Tsuga,canadensis,Tsuga canadensis,TSCA,True,True,False,
+262,Carolina hemlock,Tsuga,caroliniana,Tsuga caroliniana,TSCA2,True,True,False,
+263,western hemlock,Tsuga,heterophylla,Tsuga heterophylla,TSHE,True,False,True,
+264,mountain hemlock,Tsuga,mertensiana,Tsuga mertensiana,TSME,True,False,True,
+299,unknown dead conifer,Tree,evergreen,Tree evergreen,2TE,True,True,True,C
+300,acacia spp.,Acacia,(spp.),Acacia (spp.),ACACI,False,True,True,w/C
+6001,blackbrush wattle,Acacia,anegadensis,Acacia anegadensis,ACAN4,False,False,False,C
+303,sweet acacia,Acacia,farnesiana,Acacia farnesiana,ACFA,False,True,True,w/C
+304,catclaw acacia,Acacia,greggii,Acacia greggii,ACGR,False,True,True,w
+6008,porknut,Acacia,macracantha,Acacia macracantha,ACMA,False,False,False,C
+6009,Acacia mangium,Acacia,mangium,Acacia mangium,ACMA12,False,False,False,C
+6012,spineless wattle,Acacia,muricata,Acacia muricata,ACMU,False,False,False,C
+6013,gum arabic tree,Acacia,nilotica,Acacia nilotica,ACNI2,False,False,False,C
+6015,Acacia polyacantha,Acacia,polyacantha,Acacia polyacantha,ACPO3,False,False,False,C
+6018,poponax,Acacia,tortuosa,Acacia tortuosa,ACTO,False,False,False,C
+310,maple spp.,Acer,(spp.),Acer (spp.),ACER,False,True,True,
+311,Florida maple,Acer,barbatum,Acer barbatum,ACBA3,True,True,False,
+321,Rocky Mountain maple,Acer,glabrum,Acer glabrum,ACGL,False,False,True,w
+322,bigtooth maple,Acer,grandidentatum,Acer grandidentatum,ACGR3,False,False,True,w
+323,chalk maple,Acer,leucoderme,Acer leucoderme,ACLE,True,True,False,
+312,bigleaf maple,Acer,macrophyllum,Acer macrophyllum,ACMA3,True,False,True,
+313,boxelder,Acer,negundo,Acer negundo,ACNE2,True,True,True,
+314,black maple,Acer,nigrum,Acer nigrum,ACNI5,True,True,False,
+315,striped maple,Acer,pensylvanicum,Acer pensylvanicum,ACPE,True,True,False,
+320,Norway maple,Acer,platanoides,Acer platanoides,ACPL,False,True,False,
+316,red maple,Acer,rubrum,Acer rubrum,ACRU,True,True,False,
+317,silver maple,Acer,saccharinum,Acer saccharinum,ACSA2,True,True,False,
+318,sugar maple,Acer,saccharum,Acer saccharum,ACSA3,True,True,False,
+319,mountain maple,Acer,spicatum,Acer spicatum,ACSP2,False,True,False,
+6021,hollowheart,Acnistus,arborescens,Acnistus arborescens,ACAR,False,False,False,C
+906,paurotis palm,Acoelorraphe,wrightii,Acoelorraphe wrightii,ACWR4,False,True,False,
+6023,grugru palm,Acrocomia,media,Acrocomia media,ACME2,False,False,False,C
+6025,baobab,Adansonia,digitata,Adansonia digitata,ADDI3,False,False,False,C
+6026,wild lime,Adelia,ricinella,Adelia ricinella,ADRI,False,False,False,C
+6028,red beadtree,Adenanthera,pavonina,Adenanthera pavonina,ADPA,False,False,False,C
+6032,Caribbean spiritweed,Aegiphila,martinicensis,Aegiphila martinicensis,AEMA,False,False,False,C
+330,"buckeye, horsechestnut spp.",Aesculus,(spp.),Aesculus (spp.),AESCU,False,True,True,
+333,California buckeye,Aesculus,californica,Aesculus californica,AECA,False,False,True,
+332,yellow buckeye,Aesculus,flava,Aesculus flava,AEFL,True,True,False,
+331,Ohio buckeye,Aesculus,glabra,Aesculus glabra,AEGL,True,True,False,
+334,Texas buckeye,Aesculus,glabra var. arguta,Aesculus glabra var. arguta,AEGLA,False,True,False,
+336,red buckeye,Aesculus,pavia,Aesculus pavia,AEPA,False,True,False,
+337,painted buckeye,Aesculus,sylvatica,Aesculus sylvatica,AESY,True,True,False,
+341,ailanthus,Ailanthus,altissima,Ailanthus altissima,AIAL,True,True,True,
+6053,Aiphanes minima,Aiphanes,minima,Aiphanes minima,AIMI,False,False,False,C
+6055,cream albizia,Albizia,adinocephala,Albizia adinocephala,ALAD,False,False,False,C
+6056,naked albizia,Albizia,carbonaria,Albizia carbonaria,ALCA8,False,False,False,C
+345,mimosa/silktree,Albizia,julibrissin,Albizia julibrissin,ALJU,True,True,True,
+6059,woman's tongue,Albizia,lebbeck,Albizia lebbeck,ALLE,False,False,False,C
+6060,tall albizia,Albizia,procera,Albizia procera,ALPR,False,False,False,C
+6064,achiotillo,Alchornea,latifolia,Alchornea latifolia,ALLA,False,False,False,C
+6066,palo de gallina,Alchorneopsis,floribunda,Alchorneopsis floribunda,ALFL3,False,False,False,C
+6075,Indian walnut,Aleurites,moluccana,Aleurites moluccana,ALMO2,False,False,False,C
+6080,palo blanco,Allophylus,crassinervis,Allophylus crassinervis,ALCR9,False,False,False,C
+6082,palo de caja,Allophylus,racemosus,Allophylus racemosus,ALRA,False,False,False,C
+350,alder spp.,Alnus,(spp.),Alnus (spp.),ALNUS,False,False,True,
+355,European alder,Alnus,glutinosa,Alnus glutinosa,ALGL2,True,True,False,
+353,Arizona alder,Alnus,oblongifolia,Alnus oblongifolia,ALOB2,True,False,True,
+352,white alder,Alnus,rhombifolia,Alnus rhombifolia,ALRH2,True,False,True,
+351,red alder,Alnus,rubra,Alnus rubra,ALRU2,True,False,True,
+6092,helecho gigante de la sierra,Alsophila,bryophila,Alsophila bryophila,ALBR4,False,False,False,C
+6093,Alsophila portoricensis,Alsophila,portoricensis,Alsophila portoricensis,ALPO7,False,False,False,C
+356,serviceberry spp.,Amelanchier,(spp.),Amelanchier (spp.),AMELA,False,True,True,
+357,common serviceberry,Amelanchier,arborea,Amelanchier arborea,AMAR3,False,True,True,
+358,roundleaf serviceberry,Amelanchier,sanguinea,Amelanchier sanguinea,AMSA,False,True,True,
+6101,black calabash,Amphitecna,latifolia,Amphitecna latifolia,AMLA4,False,False,False,C
+6103,balsam torchwood,Amyris,balsamifera,Amyris balsamifera,AMBA2,False,False,False,C
+852,torchwood,Amyris,elemifera,Amyris elemifera,AMEL,False,True,False,C
+6106,anacardium,Anacardium,(spp.),Anacardium (spp.),ANACA,False,False,False,C
+6107,cashew,Anacardium,occidentale,Anacardium occidentale,ANOC,False,False,False,C
+6111,Anadenanthera peregrina,Anadenanthera,peregrina,Anadenanthera peregrina,ANPE13,False,False,False,C
+6114,cabbagebark tree,Andira,inermis,Andira inermis,ANIN,False,False,False,C
+6120,canelillo,Aniba,bracteata,Aniba bracteata,ANBR7,False,False,False,C
+6124,Annona cherimola,Annona,cherimola,Annona cherimola,ANCH9,False,False,False,C
+6125,ilama,Annona,diversifolia,Annona diversifolia,ANDI11,False,False,False,C
+853,pond apple,Annona,glabra,Annona glabra,ANGL4,False,True,False,C
+6127,mountain soursop,Annona,montana,Annona montana,ANMO,False,False,False,C
+6128,soursop,Annona,muricata,Annona muricata,ANMU2,False,False,False,C
+6129,custard apple,Annona,reticulata,Annona reticulata,ANRE,False,False,False,C
+6131,sugar apple,Annona,squamosa,Annona squamosa,ANSQ,False,False,False,C
+6137,Antidesma bunius,Antidesma,bunius,Antidesma bunius,ANBU3,False,False,False,C
+6146,placa chiquitu,Antirhea,acutata,Antirhea acutata,ANAC4,False,False,False,C
+6147,pegwood,Antirhea,coriacea,Antirhea coriacea,ANCO3,False,False,False,C
+6149,palo iloron,Antirhea,lucida,Antirhea lucida,ANLU3,False,False,False,C
+6150,quina roja,Antirhea,obtusifolia,Antirhea obtusifolia,ANOB2,False,False,False,C
+6151,Puerto Rico quina,Antirhea,portoricensis,Antirhea portoricensis,ANPO3,False,False,False,C
+6152,Sintenis' quina,Antirhea,sintenisii,Antirhea sintenisii,ANSI,False,False,False,C
+360,Madrone spp.,Arbutus,(spp.),Arbutus (spp.),ARBUT,False,False,True,
+362,Arizona madrone,Arbutus,arizonica,Arbutus arizonica,ARAR2,True,False,True,
+361,Pacific madrone,Arbutus,menziesii,Arbutus menziesii,ARME,True,False,True,
+363,Texas madrone,Arbutus,xalapensis,Arbutus xalapensis,ARXA80,False,True,True,w
+6162,ausubon,Ardisia,glauciflora,Ardisia glauciflora,ARGL11,False,False,False,C
+6163,mountain marlberry,Ardisia,luquillensis,Ardisia luquillensis,ARLU3,False,False,False,C
+6164,Guadeloupe marlberry,Ardisia,obovata,Ardisia obovata,AROB2,False,False,False,C
+6165,China-shrub,Ardisia,solanacea,Ardisia solanacea,ARSO,False,False,False,C
+6171,breadfruit,Artocarpus,altilis,Artocarpus altilis,ARAL7,False,False,False,C
+6173,Artocarpus heterophyllus,Artocarpus,heterophyllus,Artocarpus heterophyllus,ARHE2,False,False,False,C
+367,Pawpaw,Asimina,triloba,Asimina triloba,ASTR,True,True,False,
+6198,carambola,Averrhoa,carambola,Averrhoa carambola,AVCA,False,False,False,C
+986,black mangrove,Avicennia,germinans,Avicennia germinans,AVGE,False,True,False,C
+6206,neem,Azadirachta,indica,Azadirachta indica,AZIN2,False,False,False,C
+6216,common bamboo,Bambusa,vulgaris,Bambusa vulgaris,BAVU2,False,False,False,C
+6217,Puerto Rico palo de ramon,Banara,portoricensis,Banara portoricensis,BAPO,False,False,False,C
+6219,Vanderbilt's palo de ramon,Banara,vanderbiltii,Banara vanderbiltii,BAVA2,False,False,False,C
+6220,sea putat,Barringtonia,asiatica,Barringtonia asiatica,BAAS3,False,False,False,C
+6224,Bastardiopsis eggersii,Bastardiopsis,eggersii,Bastardiopsis eggersii,BAEG6,False,False,False,C
+6226,Napoleon's plume,Bauhinia,monandra,Bauhinia monandra,BAMO2,False,False,False,C
+6227,petite flamboyant bauhinia,Bauhinia,multinervia,Bauhinia multinervia,BAMU3,False,False,False,C
+6228,railroadfence,Bauhinia,pauletia,Bauhinia pauletia,BAPA3,False,False,False,C
+6229,butterfly tree,Bauhinia,purpurea,Bauhinia purpurea,BAPU,False,False,False,C
+6231,St. Thomas tree,Bauhinia,tomentosa,Bauhinia tomentosa,BATO,False,False,False,C
+6232,mountain ebony,Bauhinia,variegata,Bauhinia variegata,BAVA,False,False,False,C
+6233,slugwood,Beilschmiedia,pendula,Beilschmiedia pendula,BEPE,False,False,False,C
+6235,Caribbean myrtlecroton,Bernardia,dichotoma,Bernardia dichotoma,BEDI2,False,False,False,C
+370,birch spp.,Betula,(spp.),Betula (spp.),BETUL,False,True,True,
+371,yellow birch,Betula,alleghaniensis,Betula alleghaniensis,BEAL2,True,True,False,
+372,sweet birch,Betula,lenta,Betula lenta,BELE,True,True,False,
+373,river birch,Betula,nigra,Betula nigra,BENI,True,True,False,
+374,water birch,Betula,occidentalis,Betula occidentalis,BEOC2,True,True,True,
+375,paper birch,Betula,papyrifera,Betula papyrifera,BEPA,True,True,True,
+379,gray birch,Betula,populifolia,Betula populifolia,BEPO,True,True,False,
+377,Virginia roundleaf birch,Betula,uber,Betula uber,BEUB,True,True,False,
+378,northwestern paper birch,Betula,Xutahensis,Betula Xutahensis,BEUT,True,False,True,
+6238,lipsticktree,Bixa,orellana,Bixa orellana,BIOR,False,False,False,C
+6240,akee,Blighia,sapida,Blighia sapida,BLSA2,False,False,False,C
+6247,parrotweed,Bocconia,frutescens,Bocconia frutescens,BOFR2,False,False,False,C
+6251,white alling,Bontia,daphnoides,Bontia daphnoides,BODA,False,False,False,C
+6253,Bourreria radula,Bourreria,radula,Bourreria radula,BORA2,False,False,False,C
+6255,bodywood,Bourreria,succulenta,Bourreria succulenta,BOSU2,False,False,False,C
+6257,roble de guayo,Bourreria,virgata,Bourreria virgata,BOVI2,False,False,False,C
+6270,West Indian sumac,Brunellia,comocladiifolia,Brunellia comocladiifolia,BRCO6,False,False,False,C
+6272,American brunfelsia,Brunfelsia,americana,Brunfelsia americana,BRAM4,False,False,False,C
+6273,Serpentine Hill raintree,Brunfelsia,densifolia,Brunfelsia densifolia,BRDE4,False,False,False,C
+6274,vega blanca,Brunfelsia,lactea,Brunfelsia lactea,BRLA5,False,False,False,C
+6275,Puerto Rico raintree,Brunfelsia,portoricensis,Brunfelsia portoricensis,BRPO3,False,False,False,C
+6283,fourleaf buchenavia,Buchenavia,tetraphylla,Buchenavia tetraphylla,BUTE4,False,False,False,C
+6284,gregorywood,Bucida,buceras,Bucida buceras,BUBU,False,False,False,C
+6294,cafe falso,Bunchosia,glandulifera,Bunchosia glandulifera,BUGL2,False,False,False,C
+6295,cafe forastero,Bunchosia,glandulosa,Bunchosia glandulosa,BUGL,False,False,False,C
+6297,Bunchosia polystachia,Bunchosia,polystachia,Bunchosia polystachia,BUPO5,False,False,False,C
+854,gumbo limbo,Bursera,simaruba,Bursera simaruba,BUSI,False,True,False,C
+6303,Buxus laevigata,Buxus,laevigata,Buxus laevigata,BULA10,False,False,False,C
+6304,Puerto Rico box,Buxus,portoricensis,Buxus portoricensis,BUPO,False,False,False,C
+6306,Vahl's box,Buxus,vahlii,Buxus vahlii,BUVA,False,False,False,C
+6308,maricao cimun,Byrsonima,crassifolia,Byrsonima crassifolia,BYCR,False,False,False,C
+6311,Long Key locustberry,Byrsonima,lucida,Byrsonima lucida,BYLU,False,False,False,C
+6313,doncella,Byrsonima,spicata,Byrsonima spicata,BYSP,False,False,False,C
+6315,almendrillo,Byrsonima,wadsworthii,Byrsonima wadsworthii,BYWA,False,False,False,C
+6316,nicker,Caesalpinia,(spp.),Caesalpinia (spp.),CAESA,False,False,False,C
+6317,divi divi,Caesalpinia,coriaria,Caesalpinia coriaria,CACO28,False,False,False,C
+6319,pride-of-Barbados,Caesalpinia,pulcherrima,Caesalpinia pulcherrima,CAPU13,False,False,False,C
+6320,sappanwood,Caesalpinia,sappan,Caesalpinia sappan,CASA28,False,False,False,C
+6325,Surinamese stickpea,Calliandra,surinamensis,Calliandra surinamensis,CASU33,False,False,False,C
+6326,caparosa,Callicarpa,ampla,Callicarpa ampla,CAAM14,False,False,False,C
+6328,crimson bottlebrush,Callistemon,citrinus,Callistemon citrinus,CACI15,False,False,False,C
+6337,Caloncoba echinata,Caloncoba,echinata,Caloncoba echinata,CAEC2,False,False,False,C
+6338,Antilles calophyllum,Calophyllum,antillanum,Calophyllum antillanum,CAAN22,False,False,False,C
+6341,Alexandrian laurel,Calophyllum,inophyllum,Calophyllum inophyllum,CAIN4,False,False,False,C
+6346,roostertree,Calotropis,procera,Calotropis procera,CAPR,False,False,False,C
+6350,degame,Calycophyllum,candidissimum,Calycophyllum candidissimum,CACA73,False,False,False,C
+6351,Kiaerskov's lidflower,Calyptranthes,kiaerskovii,Calyptranthes kiaerskovii,CAKI,False,False,False,C
+6352,limoncillo,Calyptranthes,krugii,Calyptranthes krugii,CAKR,False,False,False,C
+6353,Luquillo forest lidflower,Calyptranthes,luquillensis,Calyptranthes luquillensis,CALU12,False,False,False,C
+6354,pale lidflower,Calyptranthes,pallens,Calyptranthes pallens,CAPA8,False,False,False,C
+6355,Puerto Rico lidflower,Calyptranthes,portoricensis,Calyptranthes portoricensis,CAPO9,False,False,False,C
+6356,limoncillo de monte,Calyptranthes,sintenisii,Calyptranthes sintenisii,CASI8,False,False,False,C
+6358,Thomas' lidflower,Calyptranthes,thomasiana,Calyptranthes thomasiana,CATH3,False,False,False,C
+6359,myrtle of the river,Calyptranthes,zuzygium,Calyptranthes zuzygium,CAZU,False,False,False,C
+6360,Puerto Rico manac,Calyptronoma,rivalis,Calyptronoma rivalis,CARI3,False,False,False,C
+6370,ilang-ilang,Cananga,odorata,Cananga odorata,CAOD,False,False,False,C
+6380,wild cinnamon,Canella,winteriana,Canella winteriana,CAWI,False,False,False,C
+6383,burro blanco,Capparis,amplissima,Capparis amplissima,CAAM13,False,False,False,C
+6384,caper,Capparis,baducca,Capparis baducca,CABA2,False,False,False,C
+6386,Jamaican caper,Capparis,cynophallophora,Capparis cynophallophora,CACY,False,False,False,C
+6387,falseteeth,Capparis,flexuosa,Capparis flexuosa,CAFL2,False,False,False,C
+6389,broadleaf caper,Capparis,hastata,Capparis hastata,CAHA9,False,False,False,C
+6390,linguam,Capparis,indica,Capparis indica,CAIN5,False,False,False,C
+6393,crabwood,Carapa,guianensis,Carapa guianensis,CAGU6,False,False,False,C
+6395,papaya,Carica,papaya,Carica papaya,CAPA23,False,False,False,C
+391,"American hornbeam, musclewood",Carpinus,caroliniana,Carpinus caroliniana,CACA18,True,True,False,
+400,hickory spp.,Carya,(spp.),Carya (spp.),CARYA,False,True,False,
+409,mockernut hickory,Carya,alba,Carya alba,CAAL27,True,True,False,
+401,water hickory,Carya,aquatica,Carya aquatica,CAAQ2,True,True,False,
+413,southern shagbark hickory,Carya,carolinae-septentrionalis,Carya carolinae-septentrionalis,CACA38,True,True,False,
+402,bitternut hickory,Carya,cordiformis,Carya cordiformis,CACO15,True,True,False,
+411,scrub hickory,Carya,floridana,Carya floridana,CAFL6,True,True,False,
+403,pignut hickory,Carya,glabra,Carya glabra,CAGL8,True,True,False,
+404,pecan,Carya,illinoinensis,Carya illinoinensis,CAIL2,True,True,False,
+405,shellbark hickory,Carya,laciniosa,Carya laciniosa,CALA21,True,True,False,
+406,nutmeg hickory,Carya,myristiciformis,Carya myristiciformis,CAMY,True,True,False,
+412,red hickory,Carya,ovalis,Carya ovalis,CAOV3,True,True,False,
+407,shagbark hickory,Carya,ovata,Carya ovata,CAOV2,True,True,False,
+410,sand hickory,Carya,pallida,Carya pallida,CAPA24,True,True,False,
+408,black hickory,Carya,texana,Carya texana,CATE9,True,True,False,
+6402,rabo de ranton,Casearia,aculeata,Casearia aculeata,CAAC3,False,False,False,C
+6403,gia verde,Casearia,arborea,Casearia arborea,CAAR8,False,False,False,C
+6406,wild honeytree,Casearia,decandra,Casearia decandra,CADE11,False,False,False,C
+6407,Guyanese wild coffee,Casearia,guianensis,Casearia guianensis,CAGU2,False,False,False,C
+6410,crackopen,Casearia,sylvestris,Casearia sylvestris,CASY2,False,False,False,C
+6415,golden shower,Cassia,fistula,Cassia fistula,CAFI3,False,False,False,C
+6417,pink shower,Cassia,grandis,Cassia grandis,CAGR11,False,False,False,C
+6418,apple blossom,Cassia,javanica,Cassia javanica,CAJA3,False,False,False,C
+6425,marbletree,Cassine,xylocarpa,Cassine xylocarpa,CAXY,False,False,False,C
+6427,goatwood,Cassipourea,guianensis,Cassipourea guianensis,CAGU3,False,False,False,C
+420,chestnut spp.,Castanea,(spp.),Castanea (spp.),CASTA,False,True,True,
+421,American chestnut,Castanea,dentata,Castanea dentata,CADE12,False,True,False,
+424,Chinese chestnut,Castanea,mollissima,Castanea mollissima,CAMO83,True,True,True,
+422,Allegheny chinkapin,Castanea,pumila,Castanea pumila,CAPU9,True,True,False,
+423,Ozark chinkapin,Castanea,pumila var. ozarkensis,Castanea pumila var. ozarkensis,CAPUO,False,True,False,
+6429,goatbush,Castela,erecta,Castela erecta,CAER3,False,False,False,C
+6430,Panama rubbertree,Castilla,elastica,Castilla elastica,CAEL5,False,False,False,C
+855,sheoak spp.,Casuarina,(spp.),Casuarina (spp.),CASUA,False,True,False,C
+6433,river sheoak,Casuarina,cunninghamiana,Casuarina cunninghamiana,CACU8,False,False,False,C
+6434,beach sheoak,Casuarina,equisetifolia,Casuarina equisetifolia,CAEQ,False,False,False,C
+856,gray sheoak,Casuarina,glauca,Casuarina glauca,CAGL11,True,True,False,C
+857,Australian pine,Casuarina,lepidophloia,Casuarina lepidophloia,CALE28,True,True,False,C
+450,catalpa spp.,Catalpa,(spp.),Catalpa (spp.),CATAL,False,True,False,C
+451,southern catalpa,Catalpa,bignonioides,Catalpa bignonioides,CABI8,True,True,False,
+6439,Haitian catalpa,Catalpa,longissima,Catalpa longissima,CALO8,False,False,False,C
+452,northern catalpa,Catalpa,speciosa,Catalpa speciosa,CASP8,True,True,False,
+6443,pumpwood,Cecropia,schreberiana,Cecropia schreberiana,CESC9,False,False,False,C
+6445,Spanish cedar,Cedrela,odorata,Cedrela odorata,CEOD,False,False,False,C
+6447,pochote,Ceiba,acuminata,Ceiba acuminata,CEAC4,False,False,False,C
+6448,pochote,Ceiba,aesculifolia,Ceiba aesculifolia,CEAE2,False,False,False,C
+6449,kapoktree,Ceiba,pentandra,Ceiba pentandra,CEPE2,False,False,False,C
+460,hackberry spp.,Celtis,(spp.),Celtis (spp.),CELTI,False,True,True,C
+461,sugarberry,Celtis,laevigata,Celtis laevigata,CELA,True,True,True,
+463,netleaf hackberry,Celtis,laevigata var. reticulata,Celtis laevigata var. reticulata,CELAR,False,True,True,
+462,hackberry,Celtis,occidentalis,Celtis occidentalis,CEOC,True,True,True,
+6454,almex,Celtis,trinervia,Celtis trinervia,CETR3,False,False,False,C
+6457,St. John's bread,Ceratonia,siliqua,Ceratonia siliqua,CESI3,False,False,False,C
+471,eastern redbud,Cercis,canadensis,Cercis canadensis,CECA4,True,True,False,
+475,curlleaf mountain-mahogany,Cercocarpus,ledifolius,Cercocarpus ledifolius,CELE3,False,False,True,w
+6468,lady of the night cactus,Cereus,hexagonus,Cereus hexagonus,CEHE3,False,False,False,C
+6469,Cereus hildmannianus,Cereus,hildmannianus,Cereus hildmannianus,CEHI3,False,False,False,C
+6474,day jessamine,Cestrum,diurnum,Cestrum diurnum,CEDI6,False,False,False,C
+6475,galen del monte,Cestrum,laurifolium,Cestrum laurifolium,CELA2,False,False,False,C
+6477,night jessamine,Cestrum,nocturnum,Cestrum nocturnum,CENO,False,False,False,C
+6481,jointed sandmat,Chamaesyce,articulata,Chamaesyce articulata,CHAR8,False,False,False,C
+6519,hueso,Chionanthus,axilliflorus,Chionanthus axilliflorus,CHAX2,False,False,False,C
+6520,bridgotree,Chionanthus,compactus,Chionanthus compactus,CHCO12,False,False,False,C
+6521,white rosewood,Chionanthus,domingensis,Chionanthus domingensis,CHDO4,False,False,False,C
+6522,hueso prieto,Chionanthus,holdridgei,Chionanthus holdridgei,CHHO4,False,False,False,C
+6523,cabra blanca,Chionanthus,ligustrinus,Chionanthus ligustrinus,CHLI6,False,False,False,C
+6526,puntaj jayuya,Chione,seminervis,Chione seminervis,CHSE5,False,False,False,C
+6528,fatpork,Chione,venosa,Chione venosa,CHVE4,False,False,False,C
+6529,african teak,Chlorophora,excelsa,Chlorophora excelsa,CHEX5,False,False,False,C
+6532,silk-floss tree,Chorisia,speciosa,Chorisia speciosa,CHSP13,False,False,False,C
+6535,icaco coco plum,Chrysobalanus,icaco,Chrysobalanus icaco,CHIC,False,False,False,C
+431,"giant chinkapin, golden chinkapin",Chrysolepis,chrysophylla var. chrysophylla,Chrysolepis chrysophylla var. chrysophylla,CHCHC4,False,False,True,
+6539,bastard redwood,Chrysophyllum,argenteum,Chrysophyllum argenteum,CHAR6,False,False,False,C
+6541,star apple,Chrysophyllum,cainito,Chrysophyllum cainito,CHCA10,False,False,False,C
+6542,satinleaf,Chrysophyllum,oliviforme,Chrysophyllum oliviforme,CHOL,False,False,False,C
+6543,camito de perro,Chrysophyllum,pauciflorum,Chrysophyllum pauciflorum,CHPA31,False,False,False,C
+6554,cassia,Cinnamomum,aromaticum,Cinnamomum aromaticum,CIAR8,False,False,False,C
+858,camphor tree,Cinnamomum,camphora,Cinnamomum camphora,CICA,False,True,False,C
+6559,laurel avispillo,Cinnamomum,elongatum,Cinnamomum elongatum,CIEL2,False,False,False,C
+6560,avispillo,Cinnamomum,montanum,Cinnamomum montanum,CIMO3,False,False,False,C
+6564,cinnamon,Cinnamomum,verum,Cinnamomum verum,CIVE2,False,False,False,C
+6565,juniper berry,Citharexylum,caudatum,Citharexylum caudatum,CICA8,False,False,False,C
+859,fiddlewood,Citharexylum,fruticosum,Citharexylum fruticosum,CIFR,False,True,False,C
+6567,spiny fiddlewood,Citharexylum,spinosum,Citharexylum spinosum,CISP3,False,False,False,C
+6569,threespike fiddlewood,Citharexylum,tristachyum,Citharexylum tristachyum,CITR7,False,False,False,C
+860,citrus spp.,Citrus,(spp.),Citrus (spp.),CITRU2,False,True,False,C
+6581,Citrus maxima,Citrus,maxima,Citrus maxima,CIMA5,False,False,False,C
+6582,Citrus medica,Citrus,medica,Citrus medica,CIME3,False,False,False,C
+6584,Citrus reticulata,Citrus,reticulata,Citrus reticulata,CIRE3,False,False,False,C
+6573,grapefruit,Citrus,xaurantiifolia,Citrus xaurantiifolia,CIAU7,False,False,False,C
+6574,Citrus ×aurantium,Citrus,xaurantium,Citrus xaurantium,CIAU8,False,False,False,C
+6575,shaddock,Citrus,xlimon,Citrus xlimon,CILI5,False,False,False,C
+6576,citron,Citrus,xparadisi,Citrus xparadisi,CIPA3,False,False,False,C
+6577,tangerine,Citrus,xsinensis,Citrus xsinensis,CISI3,False,False,False,C
+481,yellowwood,Cladrastis,kentukea,Cladrastis kentukea,CLKE,True,True,False,
+6631,haggarbush,Clerodendrum,aculeatum,Clerodendrum aculeatum,CLAC2,False,False,False,C
+6637,teta prieta,Cleyera,albopunctata,Cleyera albopunctata,CLAL4,False,False,False,C
+6639,jackass breadnut,Clibadium,erosum,Clibadium erosum,CLER,False,False,False,C
+6641,Clidemia cymosa,Clidemia,cymosa,Clidemia cymosa,CLCY5,False,False,False,C
+6642,soapbush,Clidemia,hirta,Clidemia hirta,CLHI3,False,False,False,C
+6644,Philippine pigeonwings,Clitoria,fairchildiana,Clitoria fairchildiana,CLFA5,False,False,False,C
+6646,cupeillo,Clusia,clusioides,Clusia clusioides,CLCL2,False,False,False,C
+6648,Grundlach's attorney,Clusia,gundlachii,Clusia gundlachii,CLGU,False,False,False,C
+6650,cupey de monte,Clusia,minor,Clusia minor,CLMI2,False,False,False,C
+6651,Scotch attorney,Clusia,rosea,Clusia rosea,CLRO,False,False,False,C
+6653,deepwoods fern,Cnemidaria,horrida,Cnemidaria horrida,CNHO,False,False,False,C
+6655,treadsoftly,Cnidoscolus,aconitifolius,Cnidoscolus aconitifolius,CNAC,False,False,False,C
+6658,uvilla,Coccoloba,costata,Coccoloba costata,COCO8,False,False,False,C
+863,"pigeon plum, tietongue",Coccoloba,diversifolia,Coccoloba diversifolia,CODI8,False,True,False,C
+6660,whitewood,Coccoloba,krugii,Coccoloba krugii,COKR,False,False,False,C
+6661,puckhout,Coccoloba,microstachya,Coccoloba microstachya,COMI,False,False,False,C
+6662,pale seagrape,Coccoloba,pallida,Coccoloba pallida,COPA24,False,False,False,C
+6663,grandleaf seagrape,Coccoloba,pubescens,Coccoloba pubescens,COPU,False,False,False,C
+6664,uvera,Coccoloba,pyrifolia,Coccoloba pyrifolia,COPY,False,False,False,C
+6665,ortegon,Coccoloba,rugosa,Coccoloba rugosa,CORU4,False,False,False,C
+6666,uvero de monte,Coccoloba,sintenisii,Coccoloba sintenisii,COSI2,False,False,False,C
+6668,Swartz's pigeonplum,Coccoloba,swartzii,Coccoloba swartzii,COSW,False,False,False,C
+6669,Bahama pigeonplum,Coccoloba,tenuifolia,Coccoloba tenuifolia,COTE9,False,False,False,C
+6670,seagrape,Coccoloba,uvifera,Coccoloba uvifera,COUV,False,False,False,C
+6671,false chiggergrape,Coccoloba,venosa,Coccoloba venosa,COVE,False,False,False,C
+907,silver palm,Coccothrinax,argentata,Coccothrinax argentata,COAR,False,True,False,
+6673,Coccothrinax barbadensis,Coccothrinax,barbadensis,Coccothrinax barbadensis,COBA3,False,False,False,C
+6679,silk cottontree,Cochlospermum,vitifolium,Cochlospermum vitifolium,COVI,False,False,False,C
+908,coconut palm,Cocos,nucifera,Cocos nucifera,CONU,False,True,False,C
+6683,garden croton,Codiaeum,variegatum,Codiaeum variegatum,COVA3,False,False,False,C
+6684,Arabian coffee,Coffea,arabica,Coffea arabica,COAR2,False,False,False,C
+6686,Coffea liberica,Coffea,liberica,Coffea liberica,COLI8,False,False,False,C
+6688,Cojoba arborea,Cojoba,arborea,Cojoba arborea,COAR9,False,False,False,C
+6689,abata cola,Cola,acuminata,Cola acuminata,COAC4,False,False,False,C
+6693,greenheart,Colubrina,arborescens,Colubrina arborescens,COAR3,False,False,False,C
+864,soldierwood,Colubrina,elliptica,Colubrina elliptica,COEL2,False,True,False,C
+6700,Urban's nakedwood,Colubrina,verrucosa,Colubrina verrucosa,COVE6,False,False,False,C
+6705,poison ash,Comocladia,dodonaea,Comocladia dodonaea,CODO,False,False,False,C
+6706,carrasco,Comocladia,glabra,Comocladia glabra,COGL4,False,False,False,C
+867,bluewood,Condalia,hookeri,Condalia hookeri,COHO,False,True,False,w
+987,buttonwood mangrove,Conocarpus,erectus,Conocarpus erectus,COER2,False,True,False,C
+6710,Luquillo Mountain snailwood,Conostegia,rufescens,Conostegia rufescens,CORU17,False,False,False,C
+6711,Consolea moniliformis,Consolea,moniliformis,Consolea moniliformis,COMO8,False,False,False,C
+6712,Consolea rubescens,Consolea,rubescens,Consolea rubescens,CORU8,False,False,False,C
+6714,copaiba,Copaifera,officinalis,Copaifera officinalis,COOF2,False,False,False,C
+6728,Spanish elm,Cordia,alliodora,Cordia alliodora,COAL,False,False,False,C
+8651,anacahuita,Cordia,boissieri,Cordia boissieri,COBO2,False,True,False,
+6730,muneco,Cordia,borinquensis,Cordia borinquensis,COBO3,False,False,False,C
+6731,red manjack,Cordia,collococca,Cordia collococca,COCO5,False,False,False,C
+6735,smooth manjack,Cordia,laevigata,Cordia laevigata,COLA12,False,False,False,C
+6737,clammy cherry,Cordia,obliqua,Cordia obliqua,COOB3,False,False,False,C
+6738,San Bartolome,Cordia,rickseckeri,Cordia rickseckeri,CORI,False,False,False,C
+6739,Puerto Rico manjack,Cordia,rupicola,Cordia rupicola,CORU5,False,False,False,C
+865,geiger tree,Cordia,sebestena,Cordia sebestena,COSE2,False,True,False,C
+6743,mucilage manjack,Cordia,sulcata,Cordia sulcata,COSU3,False,False,False,C
+490,dogwood spp.,Cornus,(spp.),Cornus (spp.),CORNU,False,True,True,
+491,flowering dogwood,Cornus,florida,Cornus florida,COFL2,True,True,False,
+492,Pacific dogwood,Cornus,nuttallii,Cornus nuttallii,CONU4,True,False,True,
+6746,nigua,Cornutia,obovata,Cornutia obovata,COOB4,False,False,False,C
+6747,azulejo,Cornutia,pyramidata,Cornutia pyramidata,COPY2,False,False,False,C
+6750,Corymbia citriodora,Corymbia,citriodora,Corymbia citriodora,COCI4,False,False,False,C
+996,smoketree,Cotinus,obovatus,Cotinus obovatus,COOB2,True,True,False,
+6756,cannonball tree,Couroupita,guianensis,Couroupita guianensis,COGU3,False,False,False,C
+500,hawthorn spp.,Crataegus,(spp.),Crataegus (spp.),CRATA,False,True,False,
+503,Brainerd hawthorn,Crataegus,brainerdii,Crataegus brainerdii,CRBR3,False,True,False,
+504,pear hawthorn,Crataegus,calpodendron,Crataegus calpodendron,CRCA,False,True,False,
+505,fireberry hawthorn,Crataegus,chrysocarpa,Crataegus chrysocarpa,CRCH,False,True,False,
+501,cockspur hawthorn,Crataegus,crus-galli,Crataegus crus-galli,CRCR2,False,True,False,
+506,broadleaf hawthorn,Crataegus,dilatata,Crataegus dilatata,CRDI,False,True,False,
+507,fanleaf hawthorn,Crataegus,flabellata,Crataegus flabellata,CRFL,False,True,False,
+502,downy hawthorn,Crataegus,mollis,Crataegus mollis,CRMO2,False,True,False,
+508,oneseed hawthorn,Crataegus,monogyna,Crataegus monogyna,CRMO3,False,True,False,
+509,scarlet hawthorn,Crataegus,pedicellata,Crataegus pedicellata,CRPE,False,True,False,
+5091,Washington hawthorn,Crataegus,phaenopyrum,Crataegus phaenopyrum,CRPH,False,True,False,
+5092,fleshy hawthorn,Crataegus,succulenta,Crataegus succulenta,CRSU5,False,True,False,
+5093,dwarf hawthorn,Crataegus,uniflora,Crataegus uniflora,CRUN,False,True,False,
+6761,common calabash tree,Crescentia,cujete,Crescentia cujete,CRCU,False,False,False,C
+6762,higuerito,Crescentia,linearifolia,Crescentia linearifolia,CRLI5,False,False,False,C
+6763,higuero de sierra,Crescentia,portoricensis,Crescentia portoricensis,CRPO6,False,False,False,C
+6765,Critonia portoricensis,Critonia,portoricensis,Critonia portoricensis,CRPO7,False,False,False,C
+6767,maidenberry,Crossopetalum,rhacoma,Crossopetalum rhacoma,CRRH,False,False,False,C
+6773,wild marrow,Croton,astroites,Croton astroites,CRAS3,False,False,False,C
+6774,Croton flavens,Croton,flavens,Croton flavens,CRFL23,False,False,False,C
+6775,sabinon,Croton,poecilanthus,Croton poecilanthus,CRPO4,False,False,False,C
+6790,wild ackee,Cupania,americana,Cupania americana,CUAM,False,False,False,C
+6792,guara blanca,Cupania,triquetra,Cupania triquetra,CUTR,False,False,False,C
+866,carrotwood,Cupaniopsis,anacardioides,Cupaniopsis anacardioides,CUAN4,False,True,False,
+6834,parrotfeather treefern,Cyathea,andina,Cyathea andina,CYAN,False,False,False,C
+6835,West Indian treefern,Cyathea,arborea,Cyathea arborea,CYAR,False,False,False,C
+6839,Jamaican treefern,Cyathea,furfuracea,Cyathea furfuracea,CYFU,False,False,False,C
+6843,small treefern,Cyathea,parvula,Cyathea parvula,CYPA7,False,False,False,C
+6848,helecho gigante,Cyathea,tenera,Cyathea tenera,CYTE10,False,False,False,C
+6850,Cybianthus sintenisii,Cybianthus,sintenisii,Cybianthus sintenisii,CYSI,False,False,False,C
+6857,oreganillo falso,Cynometra,portoricensis,Cynometra portoricensis,CYPO2,False,False,False,C
+6862,swamp titi,Cyrilla,racemiflora,Cyrilla racemiflora,CYRA,False,False,False,C
+6867,candletree,Dacryodes,excelsa,Dacryodes excelsa,DAEX,False,False,False,C
+6869,Indian rosewood,Dalbergia,sissoo,Dalbergia sissoo,DASI,False,False,False,C
+6871,burn nose,Daphnopsis,americana,Daphnopsis americana,DAAM2,False,False,False,C
+6872,Heller's cieneguillo,Daphnopsis,helleriana,Daphnopsis helleriana,DAHE2,False,False,False,C
+6873,emajagua de sierra,Daphnopsis,philippiana,Daphnopsis philippiana,DAPH,False,False,False,C
+6883,royal poinciana,Delonix,regia,Delonix regia,DERE,False,False,False,C
+6888,angelica tree,Dendropanax,arboreus,Dendropanax arboreus,DEAR,False,False,False,C
+6889,palo de vaca,Dendropanax,laurifolius,Dendropanax laurifolius,DELA3,False,False,False,C
+6896,chulta,Dillenia,indica,Dillenia indica,DIIN6,False,False,False,C
+6899,Dimocarpus longan,Dimocarpus,longan,Dimocarpus longan,DILO7,False,False,False,C
+520,persimmon spp.,Diospyros,(spp.),Diospyros (spp.),DIOSP,False,True,False,C
+6909,black apple,Diospyros,revoluta,Diospyros revoluta,DIRE6,False,False,False,C
+6912,Chinese persimmon,Diospyros,sintenisii,Diospyros sintenisii,DISI3,False,False,False,C
+522,Texas persimmon,Diospyros,texana,Diospyros texana,DITE3,True,True,False,
+521,common persimmon,Diospyros,virginiana,Diospyros virginiana,DIVI5,True,True,False,
+6923,jaboncillo,Ditta,myricoides,Ditta myricoides,DIMY,False,False,False,C
+6927,Florida hopbush,Dodonaea,viscosa,Dodonaea viscosa,DOVI,False,False,False,C
+6930,Ceylon gooseberry,Dovyalis,hebecarpa,Dovyalis hebecarpa,DOHE2,False,False,False,C
+6932,fragrant dracaena,Dracaena,fragrans,Dracaena fragrans,DRFR2,False,False,False,C
+6937,cafeillo,Drypetes,alba,Drypetes alba,DRAL5,False,False,False,C
+6938,varital,Drypetes,glauca,Drypetes glauca,DRGL2,False,False,False,C
+6939,rosewood,Drypetes,ilicifolia,Drypetes ilicifolia,DRIL,False,False,False,C
+6940,guiana plum,Drypetes,lateriflora,Drypetes lateriflora,DRLA3,False,False,False,C
+6961,golden dewdrops,Duranta,erecta,Duranta erecta,DUER,False,False,False,C
+6966,Dypsis lutescens,Dypsis,lutescens,Dypsis lutescens,DYLU,False,False,False,C
+868,blackbead ebony,Ebenopsis,ebano,Ebenopsis ebano,EBEB,False,True,False,
+523,Anacua,Ehretia,anacua,Ehretia anacua,EHAN,False,True,False,w
+997,Russian-olive,Elaeagnus,angustifolia,Elaeagnus angustifolia,ELAN,False,True,True,
+6996,monkeysoap,Enterolobium,cyclocarpum,Enterolobium cyclocarpum,ENCY,False,False,False,C
+6998,loquat,Eriobotrya,japonica,Eriobotrya japonica,ERJA3,False,False,False,C
+7000,blacktorch,Erithalis,fruticosa,Erithalis fruticosa,ERFR4,False,False,False,C
+7004,machete,Erythrina,berteriana,Erythrina berteriana,ERBE3,False,False,False,C
+7005,coral erythrina,Erythrina,corallodendron,Erythrina corallodendron,ERCO22,False,False,False,C
+7006,crybabytree,Erythrina,crista-galli,Erythrina crista-galli,ERCR6,False,False,False,C
+7007,cock's spur,Erythrina,eggersii,Erythrina eggersii,EREG,False,False,False,C
+7008,bucayo,Erythrina,fusca,Erythrina fusca,ERFU2,False,False,False,C
+7011,mountain immortelle,Erythrina,poeppigiana,Erythrina poeppigiana,ERPO5,False,False,False,C
+7015,tiger's claw,Erythrina,variegata,Erythrina variegata,ERVA7,False,False,False,C
+7016,tiger's claw,Erythrina,variegate var. orientalis,Erythrina variegate var. orientalis,ERVAO,False,False,False,C
+7019,swamp-redwood,Erythroxylum,areolatum,Erythroxylum areolatum,ERAR17,False,False,False,C
+7021,ratwood,Erythroxylum,rotundifolium,Erythroxylum rotundifolium,ERRO3,False,False,False,C
+7022,rufous false cocaine,Erythroxylum,rufum,Erythroxylum rufum,ERRU4,False,False,False,C
+7024,Urban's false cocaine,Erythroxylum,urbanii,Erythroxylum urbanii,ERUR4,False,False,False,C
+510,eucalyptus spp.,Eucalyptus,(spp.),Eucalyptus (spp.),EUCAL,False,True,True,C
+512,river redgum,Eucalyptus,camaldulensis,Eucalyptus camaldulensis,EUCA2,True,True,False,
+7034,Indonesian gum,Eucalyptus,deglupta,Eucalyptus deglupta,EUDE2,False,False,False,C
+511,Tasmanian bluegum,Eucalyptus,globulus,Eucalyptus globulus,EUGL,True,False,True,
+513,grand eucalyptus,Eucalyptus,grandis,Eucalyptus grandis,EUGR12,True,True,False,C
+7043,spotted gum,Eucalyptus,maculata,Eucalyptus maculata,EUMA23,False,False,False,C
+7046,gray ironbark,Eucalyptus,paniculata,Eucalyptus paniculata,EUPA,False,False,False,C
+7049,redmahogany,Eucalyptus,resinifera,Eucalyptus resinifera,EURE2,False,False,False,C
+514,swamp mahogany,Eucalyptus,robusta,Eucalyptus robusta,EURO2,True,True,False,C
+7053,Sydney bluegum,Eucalyptus,saligna,Eucalyptus saligna,EUSA,False,False,False,C
+7060,white stopper,Eugenia,axillaris,Eugenia axillaris,EUAX,False,False,False,C
+7061,blackrodwood,Eugenia,biflora,Eugenia biflora,EUBI,False,False,False,C
+7062,Sierra de Cayey stopper,Eugenia,boqueronensis,Eugenia boqueronensis,EUBO3,False,False,False,C
+7063,guayabota de sierra,Eugenia,borinquensis,Eugenia borinquensis,EUBO4,False,False,False,C
+7066,redberry stopper,Eugenia,confusa,Eugenia confusa,EUCO4,False,False,False,C
+7067,lathberry,Eugenia,cordata,Eugenia cordata,EUCO5,False,False,False,C
+7068,Eugenia cordata,Eugenia,cordata var. sintenisii,Eugenia cordata var. sintenisii,EUCOS,False,False,False,C
+7069,sperry guava,Eugenia,corozalensis,Eugenia corozalensis,EUCO13,False,False,False,C
+7071,serrette guave,Eugenia,domingensis,Eugenia domingensis,EUDO,False,False,False,C
+7072,guasabara,Eugenia,eggersii,Eugenia eggersii,EUEG,False,False,False,C
+7075,smooth rodwood,Eugenia,glabrata,Eugenia glabrata,EUGL6,False,False,False,C
+7076,Luquillo Mountain stopper,Eugenia,haematocarpa,Eugenia haematocarpa,EUHA4,False,False,False,C
+7081,privet stopper,Eugenia,ligustrina,Eugenia ligustrina,EULI,False,False,False,C
+7084,birdcherry,Eugenia,monticola,Eugenia monticola,EUMO,False,False,False,C
+7089,rockmyrtle,Eugenia,procera,Eugenia procera,EUPR4,False,False,False,C
+7090,Christmas cherry,Eugenia,pseudopsidium,Eugenia pseudopsidium,EUPS,False,False,False,C
+873,red stopper,Eugenia,rhombea,Eugenia rhombea,EURH,False,True,False,C
+7093,serrasuela,Eugenia,serrasuela,Eugenia serrasuela,EUSE9,False,False,False,C
+7094,sessileleaf stopper,Eugenia,sessiliflora,Eugenia sessiliflora,EUSE10,False,False,False,C
+7098,Stahl's stopper,Eugenia,stahlii,Eugenia stahlii,EUST3,False,False,False,C
+7100,Stewardson's stopper,Eugenia,stewardsonii,Eugenia stewardsonii,EUST6,False,False,False,C
+7103,Underwood's stopper,Eugenia,underwoodii,Eugenia underwoodii,EUUN,False,False,False,C
+7104,Surinam cherry,Eugenia,uniflora,Eugenia uniflora,EUUN2,False,False,False,C
+7105,aridland stopper,Eugenia,xerophytica,Eugenia xerophytica,EUXE,False,False,False,C
+7109,Mexican shrubby spurge,Euphorbia,cotinifolia,Euphorbia cotinifolia,EUCO24,False,False,False,C
+7111,mottled spurge,Euphorbia,lactea,Euphorbia lactea,EULA8,False,False,False,C
+7112,Indian spurgetree,Euphorbia,neriifolia,Euphorbia neriifolia,EUNE4,False,False,False,C
+7113,manchineel berry,Euphorbia,petiolaris,Euphorbia petiolaris,EUPE8,False,False,False,C
+7116,Indiantree spurge,Euphorbia,tirucalli,Euphorbia tirucalli,EUTI,False,False,False,C
+7135,Caribbean princewood,Exostema,caribaeum,Exostema caribaeum,EXCA,False,False,False,C
+7136,plateado,Exostema,ellipticum,Exostema ellipticum,EXEL,False,False,False,C
+7137,Exostema sanctae-luciae,Exostema,sanctae-luciae,Exostema sanctae-luciae,EXSA2,False,False,False,C
+874,"Inkwood, butterbough",Exothea,paniculata,Exothea paniculata,EXPA,False,True,False,C
+531,American beech,Fagus,grandifolia,Fagus grandifolia,FAGR,True,True,False,
+915,other palms,Family Arecaceae,not listed above,Family Arecaceae not listed above,ARECA,False,True,False,
+7146,false coffee,Faramea,occidentalis,Faramea occidentalis,FAOC,False,False,False,C
+7148,Jamaican cherry fig,Ficus,americana,Ficus americana,FIAM,False,False,False,C
+876,strangler fig,Ficus,aurea,Ficus aurea,FIAU,False,True,False,
+7149,Indian banyan,Ficus,benghalensis,Ficus benghalensis,FIBE2,False,False,False,C
+7150,weeping fig,Ficus,benjamina,Ficus benjamina,FIBE,False,False,False,C
+7151,edible fig,Ficus,carica,Ficus carica,FICA,False,False,False,C
+877,"shortleaf fig, wild banyantree",Ficus,citrifolia,Ficus citrifolia,FICI,False,True,False,C
+7154,brown-woolly fig,Ficus,drupacea,Ficus drupacea,FIDR3,False,False,False,C
+7155,Indian rubberplant,Ficus,elastica,Ficus elastica,FIEL,False,False,False,C
+7158,Ficus lutea,Ficus,lutea,Ficus lutea,FILU,False,False,False,C
+7159,fiddleleaf fig,Ficus,lyrata,Ficus lyrata,FILY,False,False,False,C
+7160,Chinese banyan,Ficus,microcarpa,Ficus microcarpa,FIMI2,False,False,False,C
+7162,tibig,Ficus,nota,Ficus nota,FINO3,False,False,False,C
+7164,amate,Ficus,obtusifolia,Ficus obtusifolia,FIOB,False,False,False,C
+7166,peepul tree,Ficus,religiosa,Ficus religiosa,FIRE3,False,False,False,C
+7173,jaguey,Ficus,stahlii,Ficus stahlii,FIST,False,False,False,C
+7174,sycamore fig,Ficus,sycomorus,Ficus sycomorus,FISY2,False,False,False,C
+7177,jaguey blanco,Ficus,trigonata,Ficus trigonata,FITR,False,False,False,C
+7184,governor's plum,Flacourtia,indica,Flacourtia indica,FLIN,False,False,False,C
+7185,batoko plum,Flacourtia,inermis,Flacourtia inermis,FLIN3,False,False,False,C
+7190,Flueggea acidoton,Flueggea,acidoton,Flueggea acidoton,FLAC,False,False,False,C
+7194,inkbush,Forestiera,eggersiana,Forestiera eggersiana,FOEG,False,False,False,C
+7195,caca ravet,Forestiera,rhamnifolia,Forestiera rhamnifolia,FORH,False,False,False,C
+7196,Florida swampprivet,Forestiera,segregata,Forestiera segregata,FOSE,False,False,False,C
+7198,oval kumquat,Fortunella,margarita,Fortunella margarita,FOMA2,False,False,False,C
+7202,West Indian buckthorn,Frangula,sphaerosperma,Frangula sphaerosperma,FRSPL,False,False,False,C
+540,ash spp.,Fraxinus,(spp.),Fraxinus (spp.),FRAXI,False,True,True,C
+541,white ash,Fraxinus,americana,Fraxinus americana,FRAM2,True,True,False,
+5491,Berlandier ash,Fraxinus,berlandieriana,Fraxinus berlandieriana,FRBE,False,True,False,
+548,Carolina ash,Fraxinus,caroliniana,Fraxinus caroliniana,FRCA3,True,True,False,
+542,Oregon ash,Fraxinus,latifolia,Fraxinus latifolia,FRLA,True,False,True,
+543,black ash,Fraxinus,nigra,Fraxinus nigra,FRNI,True,True,False,
+544,green ash,Fraxinus,pennsylvanica,Fraxinus pennsylvanica,FRPE,True,True,False,
+545,pumpkin ash,Fraxinus,profunda,Fraxinus profunda,FRPR,True,True,False,
+546,blue ash,Fraxinus,quadrangulata,Fraxinus quadrangulata,FRQU,True,True,False,
+549,Texas ash,Fraxinus,texensis,Fraxinus texensis,FRTE,True,True,False,
+7206,shamel ash,Fraxinus,uhdei,Fraxinus uhdei,FRUH,False,False,False,C
+547,velvet ash,Fraxinus,velutina,Fraxinus velutina,FRVE2,True,False,True,
+7210,silkrubber,Funtumia,elastica,Funtumia elastica,FUEL,False,False,False,C
+7212,Gourka,Garcinia,dulcis,Garcinia dulcis,GADU3,False,False,False,C
+7213,lemon saptree,Garcinia,hessii,Garcinia hessii,GAHE5,False,False,False,C
+7214,mangosteen,Garcinia,mangostana,Garcinia mangostana,GAMA10,False,False,False,C
+7218,palo de cruz,Garcinia,portoricensis,Garcinia portoricensis,GAPO2,False,False,False,C
+7223,Garcinia xanthochymus,Garcinia,xanthochymus,Garcinia xanthochymus,GAXA,False,False,False,C
+7231,llume,Gaussia,attenuata,Gaussia attenuata,GAAT,False,False,False,C
+7235,jagua,Genipa,americana,Genipa americana,GEAM,False,False,False,C
+7237,arbol de Navidad,Gesneria,pedunculosa,Gesneria pedunculosa,GEPE4,False,False,False,C
+561,"Ginkgo, maidenhair tree",Ginkgo,biloba,Ginkgo biloba,GIBI2,True,True,True,
+7239,bastard gregre,Ginoria,rohrii,Ginoria rohrii,GIRO,False,False,False,C
+550,locust spp.,Gleditsia,(spp.),Gleditsia (spp.),GLEDI,False,True,False,
+551,waterlocust,Gleditsia,aquatica,Gleditsia aquatica,GLAQ,True,True,False,
+552,honeylocust,Gleditsia,triacanthos,Gleditsia triacanthos,GLTR,True,True,False,
+7245,quickstick,Gliricidia,sepium,Gliricidia sepium,GLSE2,False,False,False,C
+7256,mata buey,Goetzea,elegans,Goetzea elegans,GOEL,False,False,False,C
+7258,grand merisier,Gomidesia,lindeniana,Gomidesia lindeniana,GOLI,False,False,False,C
+555,loblolly bay,Gordonia,lasianthus,Gordonia lasianthus,GOLA,True,True,False,
+7262,Creole cotton,Gossypium,barbadense,Gossypium barbadense,GOBA,False,False,False,C
+7264,Gossypium hirsutum,Gossypium,hirsutum,Gossypium hirsutum,GOHIH2,False,False,False,C
+7268,Graffenrieda ottoschulzii,Graffenrieda,ottoschulzii,Graffenrieda ottoschulzii,GROT,False,False,False,C
+7273,silkoak,Grevillea,robusta,Grevillea robusta,GRRO,False,False,False,C
+7279,lignum-vitae,Guajacum,officinale,Guajacum officinale,GUOF,False,False,False,C
+7280,holywood,Guajacum,sanctum,Guajacum sanctum,GUSA,False,False,False,C
+882,"Blolly, beeftree",Guapira,discolor,Guapira discolor,GUDI,False,True,False,C
+7285,black mampoo,Guapira,fragrans,Guapira fragrans,GUFR,False,False,False,C
+7286,corcho prieto,Guapira,obtusata,Guapira obtusata,GUOB,False,False,False,C
+7288,alligatorwood,Guarea,glabra,Guarea glabra,GUGL3,False,False,False,C
+7290,American muskwood,Guarea,guidonia,Guarea guidonia,GUGU,False,False,False,C
+7294,haya minga,Guatteria,blainii,Guatteria blainii,GUBL,False,False,False,C
+7295,haya blanca,Guatteria,caribaea,Guatteria caribaea,GUCA2,False,False,False,C
+7298,bastardcedar,Guazuma,ulmifolia,Guazuma ulmifolia,GUUL,False,False,False,C
+7299,hammock velvetseed,Guettarda,elliptica,Guettarda elliptica,GUEL,False,False,False,C
+7300,frogwood,Guettarda,krugii,Guettarda krugii,GUKR,False,False,False,C
+7302,cucubano de vieques,Guettarda,odorata,Guettarda odorata,GUOD,False,False,False,C
+7303,cucubano,Guettarda,ovalifolia,Guettarda ovalifolia,GUOV,False,False,False,C
+7305,roseta,Guettarda,pungens,Guettarda pungens,GUPU,False,False,False,C
+7306,wild guave,Guettarda,scabra,Guettarda scabra,GUSC,False,False,False,C
+7309,cucubano de monte,Guettarda,valenzuelana,Guettarda valenzuelana,GUVA,False,False,False,C
+7315,West Indian false box,Gyminda,latifolia,Gyminda latifolia,GYLA,False,False,False,C
+7317,oysterwood,Gymnanthes,lucida,Gymnanthes lucida,GYLU,False,False,False,C
+571,Kentucky coffeetree,Gymnocladus,dioicus,Gymnocladus dioicus,GYDI,True,True,False,
+7321,bloodwoodtree,Haematoxylum,campechianum,Haematoxylum campechianum,HACA2,False,False,False,C
+7327,palo de hueso,Haenianthus,salicifolius,Haenianthus salicifolius,HASAO,False,False,False,C
+580,silverbell spp.,Halesia,(spp.),Halesia (spp.),HALES,False,True,False,
+581,Carolina silverbell,Halesia,carolina,Halesia carolina,HACA3,True,True,False,
+582,two-wing silverbell,Halesia,diptera,Halesia diptera,HADI3,True,True,False,
+583,little silverbell,Halesia,parviflora,Halesia parviflora,HAPA2,True,True,False,
+7330,scarletbush,Hamelia,patens,Hamelia patens,HAPA3,False,False,False,C
+7336,false locust,Hebestigma,cubense,Hebestigma cubense,HECU10,False,False,False,C
+7341,cigarbush,Hedyosmum,arborescens,Hedyosmum arborescens,HEAR,False,False,False,C
+7347,screwtree,Helicteres,jamaicensis,Helicteres jamaicensis,HEJA,False,False,False,C
+7353,camasey peludo,Henriettea,fascicularis,Henriettea fascicularis,HEFA5,False,False,False,C
+7354,MacFadyen's camasey,Henriettea,macfadyenii,Henriettea macfadyenii,HEMA11,False,False,False,C
+7355,thinleaf camasey,Henriettea,membranifolia,Henriettea membranifolia,HEME5,False,False,False,C
+7357,jusillo,Henriettea,squamulosum,Henriettea squamulosum,HESQ,False,False,False,C
+7366,mago,Hernandia,sonora,Hernandia sonora,HESO,False,False,False,C
+7403,mahoe,Hibiscus,elatus,Hibiscus elatus,HIEL,False,False,False,C
+7409,seaside mahoe,Hibiscus,pernambucensis,Hibiscus pernambucensis,HIPE3,False,False,False,C
+7410,shoeblackplant,Hibiscus,rosa-sinensis,Hibiscus rosa-sinensis,HIRO3,False,False,False,C
+7412,sea hibiscus,Hibiscus,tiliaceus,Hibiscus tiliaceus,HITI,False,False,False,C
+883,manchineel,Hippomane,mancinella,Hippomane mancinella,HIMA2,False,True,False,C
+7418,teta de burra cinarron,Hirtella,rugosa,Hirtella rugosa,HIRU2,False,False,False,C
+7420,pigeonberry,Hirtella,triandra,Hirtella triandra,HITR3,False,False,False,C
+7422,white cogwood,Homalium,racemosum,Homalium racemosum,HORA,False,False,False,C
+7434,sandbox tree,Hura,crepitans,Hura crepitans,HUCR,False,False,False,C
+7438,cedro macho,Hyeronima,clusioides,Hyeronima clusioides,HYCL,False,False,False,C
+7442,stinkingtoe,Hymenaea,courbaril,Hymenaea courbaril,HYCO,False,False,False,C
+7445,inkwood,Hypelate,trifoliata,Hypelate trifoliata,HYTR,False,False,False,C
+7446,limestone snakevine,Hyperbaena,laurifolia,Hyperbaena laurifolia,HYLA8,False,False,False,C
+7455,dahoon,Ilex,cassine,Ilex cassine,ILCA,False,False,False,C
+7456,te,Ilex,cookii,Ilex cookii,ILCO3,False,False,False,C
+7457,maconcona,Ilex,guianensis,Ilex guianensis,ILGU,False,False,False,C
+7458,Caribbean holly,Ilex,macfadyenii,Ilex macfadyenii,ILMA,False,False,False,C
+7459,Puerto Rico holly,Ilex,nitida,Ilex nitida,ILNI,False,False,False,C
+591,American holly,Ilex,opaca,Ilex opaca,ILOP,True,True,False,
+7462,gongolin,Ilex,sideroxyloides,Ilex sideroxyloides,ILSI,False,False,False,C
+7463,Sintenis' holly,Ilex,sintenisii,Ilex sintenisii,ILSI2,False,False,False,C
+7465,Urban's holly,Ilex,urbaniana,Ilex urbaniana,ILUR,False,False,False,C
+7466,Ilex urbaniana,Ilex,urbaniana var. riedlaei,Ilex urbaniana var. riedlaei,ILURR,False,False,False,C
+7467,inga,Inga,(spp.),Inga (spp.),INGA,False,False,False,C
+7470,sacky sac bean,Inga,laurina,Inga laurina,INLA,False,False,False,C
+7471,Inga nobilis,Inga,nobilis,Inga nobilis,INNOQ,False,False,False,C
+7474,river koko,Inga,vera,Inga vera,INVE,False,False,False,C
+7479,palo de hierro,Ixora,ferrea,Ixora ferrea,IXFE,False,False,False,C
+7481,white jungleflame,Ixora,thwaitesii,Ixora thwaitesii,IXTH,False,False,False,C
+7482,black poui,Jacaranda,mimosifolia,Jacaranda mimosifolia,JAMI,False,False,False,C
+7485,braceletwood,Jacquinia,armillaris,Jacquinia armillaris,JAAR2,False,False,False,C
+7487,bois bande,Jacquinia,berteroi,Jacquinia berteroi,JABE,False,False,False,C
+7490,chirriador,Jacquinia,umbellata,Jacquinia umbellata,JAUM,False,False,False,C
+7491,Barbados nut,Jatropha,curcas,Jatropha curcas,JACU2,False,False,False,C
+7492,wild oilnut,Jatropha,hernandiifolia,Jatropha hernandiifolia,JAHE,False,False,False,C
+7493,coralbush,Jatropha,multifida,Jatropha multifida,JAMU,False,False,False,C
+600,walnut spp.,Juglans,(spp.),Juglans (spp.),JUGLA,False,True,True,C
+604,Southern California black walnut,Juglans,californica,Juglans californica,JUCA,True,False,True,
+601,butternut,Juglans,cinerea,Juglans cinerea,JUCI,True,True,False,
+603,Northern California black walnut,Juglans,hindsii,Juglans hindsii,JUHI,False,False,True,
+7495,West Indian walnut,Juglans,jamaicensis,Juglans jamaicensis,JUJA,False,False,False,C
+606,Arizona walnut,Juglans,major,Juglans major,JUMA,True,False,True,
+605,Texas walnut,Juglans,microcarpa,Juglans microcarpa,JUMI,False,True,True,
+602,black walnut,Juglans,nigra,Juglans nigra,JUNI,True,True,True,
+7499,Khaya anthotheca,Khaya,anthotheca,Khaya anthotheca,KHAN,False,False,False,C
+7501,Senegal mahogany,Khaya,senegalensis,Khaya senegalensis,KHSE2,False,False,False,C
+7503,Kigelia africana,Kigelia,africana,Kigelia africana,KIAF,False,False,False,C
+7506,guest tree,Kleinhovia,hospita,Kleinhovia hospita,KLHO,False,False,False,C
+7508,Koanophyllon polyodon,Koanophyllon,polyodon,Koanophyllon polyodon,KOPO,False,False,False,C
+7514,leadwood,Krugiodendron,ferreum,Krugiodendron ferreum,KRFE,False,False,False,C
+7530,cuero de rana,Laetia,procera,Laetia procera,LAPR2,False,False,False,C
+7532,crapemyrtle,Lagerstroemia,indica,Lagerstroemia indica,LAIN,False,False,False,C
+7533,pride of India,Lagerstroemia,speciosa,Lagerstroemia speciosa,LASP,False,False,False,C
+988,white mangrove,Laguncularia,racemosa,Laguncularia racemosa,LARA2,False,True,False,C
+7541,nino de cota,Laplacea,portoricensis,Laplacea portoricensis,LAPO,False,False,False,C
+7550,henna,Lawsonia,inermis,Lawsonia inermis,LAIN5,False,False,False,C
+7552,Krug's roughleaf,Leandra,krugiana,Leandra krugiana,LEKR,False,False,False,C
+7556,pitahaya,Leptocereus,quadricostatus,Leptocereus quadricostatus,LEQU,False,False,False,C
+7565,white leadtree,Leucaena,leucocephala,Leucaena leucocephala,LELE10,False,False,False,C
+869,great leucaena,Leucaena,pulverulenta,Leucaena pulverulenta,LEPU3,False,True,False,
+7569,Maria laurel,Licaria,brittoniana,Licaria brittoniana,LIBR5,False,False,False,C
+7570,Puerto Rico cinnamon,Licaria,parvifolia,Licaria parvifolia,LIPA9,False,False,False,C
+7573,pepperleaf sweetwood,Licaria,triandra,Licaria triandra,LITR,False,False,False,C
+7574,Amur privet,Ligustrum,amurense,Ligustrum amurense,LIAM,False,False,False,C
+611,sweetgum,Liquidambar,styraciflua,Liquidambar styraciflua,LIST2,True,True,False,
+621,yellow-poplar,Liriodendron,tulipifera,Liriodendron tulipifera,LITU,True,True,False,
+631,tanoak,Lithocarpus,densiflorus,Lithocarpus densiflorus,LIDE3,True,False,True,
+7590,geno geno,Lonchocarpus,domingensis,Lonchocarpus domingensis,LODO5,False,False,False,C
+7591,geno,Lonchocarpus,glaucifolius,Lonchocarpus glaucifolius,LOGL2,False,False,False,C
+7592,broadleaf lancepod,Lonchocarpus,heptaphyllus,Lonchocarpus heptaphyllus,LOHE7,False,False,False,C
+7600,luehea,Luehea,speciosa,Luehea speciosa,LUSP11,False,False,False,C
+7604,lunania,Lunania,(spp.),Lunania (spp.),LUNAN,False,False,False,C
+7606,Lunania ekmanii,Lunania,ekmanii,Lunania ekmanii,LUEK,False,False,False,C
+7608,St. Thomas staggerbush,Lyonia,rubiginosa,Lyonia rubiginosa,LYRU2,False,False,False,C
+884,false tamarind,Lysiloma,latisiliquum,Lysiloma latisiliquum,LYLA3,False,True,False,C
+7628,palo de hoz,Machaerium,lunatum,Machaerium lunatum,MALU2,False,False,False,C
+7630,Puerto Rico alfilerillo,Machaonia,portoricensis,Machaonia portoricensis,MAPO6,False,False,False,C
+641,Osage-orange,Maclura,pomifera,Maclura pomifera,MAPO,True,True,False,
+7632,Maclura tinctoria,Maclura,tinctoria,Maclura tinctoria,MATI3,False,False,False,C
+7633,umbrella-tree,Maesopsis,eminii,Maesopsis eminii,MAEM2,False,False,False,C
+650,magnolia spp.,Magnolia,(spp.),Magnolia (spp.),MAGNO,False,True,False,C
+651,cucumbertree,Magnolia,acuminata,Magnolia acuminata,MAAC,True,True,False,
+655,"mountain magnolia, Fraser magnolia",Magnolia,fraseri,Magnolia fraseri,MAFR,True,True,False,
+652,southern magnolia,Magnolia,grandiflora,Magnolia grandiflora,MAGR4,True,True,False,
+654,bigleaf magnolia,Magnolia,macrophylla,Magnolia macrophylla,MAMA2,True,True,False,
+7635,Puerto Rico magnolia,Magnolia,portoricensis,Magnolia portoricensis,MAPO2,False,False,False,C
+657,pyramid magnolia,Magnolia,pyramidata,Magnolia pyramidata,MAPY,True,True,False,
+7636,laurel magnolia,Magnolia,splendens,Magnolia splendens,MASP,False,False,False,C
+658,umbrella magnolia,Magnolia,tripetala,Magnolia tripetala,MATR,True,True,False,
+653,sweetbay,Magnolia,virginiana,Magnolia virginiana,MAVI2,True,True,False,
+7643,Singapore holly,Malpighia,coccigera,Malpighia coccigera,MACO11,False,False,False,C
+7644,Barbados cherry,Malpighia,emarginata,Malpighia emarginata,MAEM,False,False,False,C
+7645,palo bronco,Malpighia,fucata,Malpighia fucata,MAFU2,False,False,False,C
+7646,wild crapemyrtle,Malpighia,glabra,Malpighia glabra,MAGL6,False,False,False,C
+7647,cowhage cherry,Malpighia,infestissima,Malpighia infestissima,MAIN5,False,False,False,C
+7648,bastard cherry,Malpighia,linearis,Malpighia linearis,MALI2,False,False,False,C
+660,apple spp.,Malus,(spp.),Malus (spp.),MALUS,False,True,True,
+662,southern crabapple,Malus,angustifolia,Malus angustifolia,MAAN3,True,True,False,
+663,sweet crabapple,Malus,coronaria,Malus coronaria,MACO5,True,True,False,
+661,Oregon crabapple,Malus,fusca,Malus fusca,MAFU,True,False,True,
+664,prairie crabapple,Malus,ioensis,Malus ioensis,MAIO,True,True,False,
+7652,mammee apple,Mammea,americana,Mammea americana,MAAM2,False,False,False,C
+885,mango,Mangifera,indica,Mangifera indica,MAIN3,False,True,False,C
+7662,bulletwood,Manilkara,bidentata,Manilkara bidentata,MABI5,False,False,False,C
+7663,Manilkara bidentata,Manilkara,bidentata ssp. surinamensis,Manilkara bidentata ssp. surinamensis,MABIS,False,False,False,C
+7667,wild dilly,Manilkara,jaimiqui,Manilkara jaimiqui,MAJA2,False,False,False,C
+7669,zapote de costa,Manilkara,pleeana,Manilkara pleeana,MAPL2,False,False,False,C
+7673,nisperillo,Manilkara,valenzuela,Manilkara valenzuela,MAVA3,False,False,False,C
+7674,sapodilla,Manilkara,zapota,Manilkara zapota,MAZA,False,False,False,C
+7677,palo de cana,Mappia,racemosa,Mappia racemosa,MARA3,False,False,False,C
+7682,bastard hogberry,Margaritaria,nobilis,Margaritaria nobilis,MANO,False,False,False,C
+7684,beruquillo,Marlierea,sintenisii,Marlierea sintenisii,MASI3,False,False,False,C
+7688,Matayba apetala,Matayba,apetala,Matayba apetala,MAAP5,False,False,False,C
+7689,negra lora,Matayba,domingensis,Matayba domingensis,MADO2,False,False,False,C
+7695,Caribbean mayten,Maytenus,cymosa,Maytenus cymosa,MACY2,False,False,False,C
+7697,Puerto Rico mayten,Maytenus,elongata,Maytenus elongata,MAEL3,False,False,False,C
+7698,white cinnamon,Maytenus,laevigata,Maytenus laevigata,MALA8,False,False,False,C
+7699,ponce mayten,Maytenus,ponceana,Maytenus ponceana,MAPO5,False,False,False,C
+7702,Mecranium latifolium,Mecranium,latifolium,Mecranium latifolium,MELA7,False,False,False,C
+992,melaleuca,Melaleuca,quinquenervia,Melaleuca quinquenervia,MEQU,True,True,False,C
+993,chinaberry,Melia,azedarach,Melia azedarach,MEAZ,True,True,False,C
+7717,Spanish lime,Melicoccus,bijugatus,Melicoccus bijugatus,MEBI,False,False,False,C
+7763,aguacatillo,Meliosma,herbertii,Meliosma herbertii,MEHE,False,False,False,C
+7764,cacaillo,Meliosma,obtusifolia,Meliosma obtusifolia,MEOB2,False,False,False,C
+7768,teabush,Melochia,tomentosa,Melochia tomentosa,METO4,False,False,False,C
+886,poisonwood,Metopium,toxiferum,Metopium toxiferum,METO3,False,True,False,C
+7804,saquiyac,Miconia,affinis,Miconia affinis,MIAF,False,False,False,C
+7806,Puerto Rico johnnyberry,Miconia,foveolata,Miconia foveolata,MIFO,False,False,False,C
+7807,camasey de costilla,Miconia,impetiolaris,Miconia impetiolaris,MIIM,False,False,False,C
+7808,smooth johnnyberry,Miconia,laevigata,Miconia laevigata,MILA8,False,False,False,C
+7803,hairy johnnyberry,Miconia,lanata,Miconia lanata,MILA10,False,False,False,C
+7810,camasey cuatrocanales,Miconia,mirabilis,Miconia mirabilis,MIMI3,False,False,False,C
+7812,camasey racimoso,Miconia,pachyphylla,Miconia pachyphylla,MIPA7,False,False,False,C
+7813,granadillo bobo,Miconia,prasina,Miconia prasina,MIPR3,False,False,False,C
+7814,auquey,Miconia,punctata,Miconia punctata,MIPU9,False,False,False,C
+7815,ridge johnnyberry,Miconia,pycnoneura,Miconia pycnoneura,MIPY2,False,False,False,C
+7816,camasey felpa,Miconia,racemosa,Miconia racemosa,MIRA2,False,False,False,C
+7817,peralejo,Miconia,rubiginosa,Miconia rubiginosa,MIRU4,False,False,False,C
+7818,jau jau,Miconia,serrulata,Miconia serrulata,MISE2,False,False,False,C
+7819,mountain johnnyberry,Miconia,sintenisii,Miconia sintenisii,MISI2,False,False,False,C
+7821,forest johnnyberry,Miconia,subcorymbosa,Miconia subcorymbosa,MISU3,False,False,False,C
+7822,rajador,Miconia,tetrandra,Miconia tetrandra,MITE4,False,False,False,C
+7823,camasey tomaso,Miconia,thomasiana,Miconia thomasiana,MITH,False,False,False,C
+7828,caimitillo verde,Micropholis,garciniifolia,Micropholis garciniifolia,MIGA,False,False,False,C
+7829,Micropholis guyanensis,Micropholis,guyanensis,Micropholis guyanensis,MIGU2,False,False,False,C
+7833,elegant mimosa,Mimosa,arenosa,Mimosa arenosa,MIAR4,False,False,False,C
+7839,monodora,Monodora,(spp.),Monodora (spp.),MONOD,False,False,False,C
+7845,Morella cerifera,Morella,cerifera,Morella cerifera,MOCE2,False,False,False,C
+7847,Morella holdridgeana,Morella,holdridgeana,Morella holdridgeana,MOHO3,False,False,False,C
+7849,Indian mulberry,Morinda,citrifolia,Morinda citrifolia,MOCI3,False,False,False,C
+7855,horseradishtree,Moringa,oleifera,Moringa oleifera,MOOL,False,False,False,C
+7857,ratapple,Morisonia,americana,Morisonia americana,MOAM,False,False,False,C
+680,mulberry spp.,Morus,(spp.),Morus (spp.),MORUS,False,True,False,C
+681,white mulberry,Morus,alba,Morus alba,MOAL,True,True,False,C
+683,Texas mulberry,Morus,microphylla,Morus microphylla,MOMI,False,True,True,
+684,black mulberry,Morus,nigra,Morus nigra,MONI,True,True,False,C
+682,red mulberry,Morus,rubra,Morus rubra,MORU2,True,True,False,
+7862,murta,Mouriri,domingensis,Mouriri domingensis,MODO2,False,False,False,C
+7863,mameyuelo,Mouriri,helleri,Mouriri helleri,MOHE,False,False,False,C
+7867,strawberrytree,Muntingia,calabura,Muntingia calabura,MUCA4,False,False,False,C
+7869,Murraya exotica,Murraya,exotica,Murraya exotica,MUEX2,False,False,False,C
+7886,red rodwood,Myrcia,citrifolia,Myrcia citrifolia,MYCI,False,False,False,C
+7887,cieneguillo,Myrcia,deflexa,Myrcia deflexa,MYDE,False,False,False,C
+7888,curame,Myrcia,fallax,Myrcia fallax,MYFA3,False,False,False,C
+7889,guayabacon,Myrcia,leptoclada,Myrcia leptoclada,MYLE,False,False,False,C
+7890,ausu,Myrcia,paganii,Myrcia paganii,MYPA,False,False,False,C
+7891,punchberry,Myrcia,splendens,Myrcia splendens,MYSP,False,False,False,C
+7893,twinberry,Myrcianthes,fragrans,Myrcianthes fragrans,MYFR,False,False,False,C
+7895,guavaberry,Myrciaria,floribunda,Myrciaria floribunda,MYFL,False,False,False,C
+7905,cercipo,Myrospermum,frutescens,Myrospermum frutescens,MYFR2,False,False,False,C
+7907,balsam of Tolu,Myroxylon,balsamum,Myroxylon balsamum,MYBA3,False,False,False,C
+7911,leathery colicwood,Myrsine,coriacea,Myrsine coriacea,MYCO2,False,False,False,C
+7912,Myrsine cubana,Myrsine,cubana,Myrsine cubana,MYCU2,False,False,False,C
+7932,Nectandra coriacea,Nectandra,coriacea,Nectandra coriacea,NECO,False,False,False,C
+7933,shinglewood,Nectandra,hihua,Nectandra hihua,NEHI2,False,False,False,C
+7934,Nectandra krugii,Nectandra,krugii,Nectandra krugii,NEKR,False,False,False,C
+7935,Nectandra membranacea,Nectandra,membranacea,Nectandra membranacea,NEME3,False,False,False,C
+7936,Nectandra patens,Nectandra,patens,Nectandra patens,NEPA4,False,False,False,C
+7939,Nectandra turbacensis,Nectandra,turbacensis,Nectandra turbacensis,NETU,False,False,False,C
+7940,saltwood,Neea,buxifolia,Neea buxifolia,NEBU,False,False,False,C
+7944,kadam,Neolamarckia,cadamba,Neolamarckia cadamba,NECA7,False,False,False,C
+7946,aquilon,Neolaugeria,resinosa,Neolaugeria resinosa,NERE2,False,False,False,C
+7956,oleander,Nerium,oleander,Nerium oleander,NEOL,False,False,False,C
+690,tupelo spp.,Nyssa,(spp.),Nyssa (spp.),NYSSA,False,True,False,
+691,water tupelo,Nyssa,aquatica,Nyssa aquatica,NYAQ2,True,True,False,
+694,swamp tupelo,Nyssa,biflora,Nyssa biflora,NYBI,True,True,False,
+692,Ogeechee tupelo,Nyssa,ogeche,Nyssa ogeche,NYOG,True,True,False,
+693,blackgum,Nyssa,sylvatica,Nyssa sylvatica,NYSY,True,True,False,
+7976,African bird's-eye bush,Ochna,mossambicensis,Ochna mossambicensis,OCMO4,False,False,False,C
+7980,Ochroma pyramidale,Ochroma,pyramidale,Ochroma pyramidale,OCPY,False,False,False,C
+7990,laurel espada,Ocotea,floribunda,Ocotea floribunda,OCFL,False,False,False,C
+7991,black sweetwood,Ocotea,foeniculacea,Ocotea foeniculacea,OCFO,False,False,False,C
+7994,loblolly sweetwood,Ocotea,leucoxylon,Ocotea leucoxylon,OCLE,False,False,False,C
+7996,nemoca,Ocotea,moschata,Ocotea moschata,OCMO,False,False,False,C
+7997,laurel sassafras,Ocotea,nemodaphne,Ocotea nemodaphne,OCNE,False,False,False,C
+7999,laurel de paloma,Ocotea,portoricensis,Ocotea portoricensis,OCPO,False,False,False,C
+8001,nemoca cimarrona,Ocotea,spathulata,Ocotea spathulata,OCSP,False,False,False,C
+8003,Wright's laurel canelon,Ocotea,wrightii,Ocotea wrightii,OCWR,False,False,False,C
+990,desert ironwood,Olneya,tesota,Olneya tesota,OLTE,False,False,True,w
+8020,peronia,Ormosia,krugii,Ormosia krugii,ORKR,False,False,False,C
+701,eastern hophornbeam,Ostrya,virginiana,Ostrya virginiana,OSVI,True,True,False,
+8027,pincho palo de rosa,Ottoschulzia,rhodoxylon,Ottoschulzia rhodoxylon,OTRH,False,False,False,C
+8029,chicharron amarillo,Ouratea,ilicifolia,Ouratea ilicifolia,OUIL,False,False,False,C
+8030,abey amarillo,Ouratea,littoralis,Ouratea littoralis,OULI,False,False,False,C
+8032,guanabanilla,Ouratea,striata,Ouratea striata,OUST,False,False,False,C
+8033,blacklancewood,Oxandra,lanceolata,Oxandra lanceolata,OXLA4,False,False,False,C
+8034,haya,Oxandra,laurifolia,Oxandra laurifolia,OXLA5,False,False,False,C
+711,sourwood,Oxydendrum,arboreum,Oxydendrum arboreum,OXAR,True,True,False,
+8037,wild chestnut,Pachira,insignis,Pachira insignis,PAIN7,False,False,False,C
+8045,tafetan,Palicourea,alpina,Palicourea alpina,PAAL9,False,False,False,C
+8047,red cappel,Palicourea,crocea,Palicourea crocea,PACR3,False,False,False,C
+8049,Palicourea croceoides,Palicourea,croceoides,Palicourea croceoides,PACR18,False,False,False,C
+8051,showy cappel,Palicourea,guianensis,Palicourea guianensis,PAGU,False,False,False,C
+8088,common screwpine,Pandanus,utilis,Pandanus utilis,PAUT,False,False,False,C
+8099,scratchthroat,Parathesis,crenulata,Parathesis crenulata,PACR2,False,False,False,C
+8106,parkia,Parkia,(spp.),Parkia (spp.),PARKI3,False,False,False,C
+8110,Parkia timoriana,Parkia,timoriana,Parkia timoriana,PATI5,False,False,False,C
+8111,Jerusalem thorn,Parkinsonia,aculeata,Parkinsonia aculeata,PAAC3,False,False,False,C
+8113,cuachilote,Parmentiera,aculeata,Parmentiera aculeata,PAAC13,False,False,False,C
+8114,candle tree,Parmentiera,cereifera,Parmentiera cereifera,PACE8,False,False,False,C
+712,"paulownia, empress-tree",Paulownia,tomentosa,Paulownia tomentosa,PATO2,True,True,False,
+8121,Peltophorum pterocarpum,Peltophorum,pterocarpum,Peltophorum pterocarpum,PEPT3,False,False,False,C
+8125,butter tree,Pentadesma,butyracea,Pentadesma butyracea,PEBU4,False,False,False,C
+8127,jiqi,Pera,bumeliifolia,Pera bumeliifolia,PEBU2,False,False,False,C
+720,bay spp.,Persea,(spp.),Persea (spp.),PERSE,False,True,True,C
+7211,avocado,Persea,americana,Persea americana,PEAM3,True,False,True,C
+721,redbay,Persea,borbonia,Persea borbonia,PEBO,True,True,False,
+8134,canela,Persea,krugii,Persea krugii,PEKR,False,False,False,C
+8138,aquacatillo,Persea,urbaniana,Persea urbaniana,PEUR2,False,False,False,C
+8141,bastard stopper,Petitia,domingensis,Petitia domingensis,PEDO,False,False,False,C
+8143,aquilon prieto,Phialanthus,grandifolius,Phialanthus grandifolius,PHGR11,False,False,False,C
+8144,candlewood,Phialanthus,myrtilloides,Phialanthus myrtilloides,PHMY,False,False,False,C
+8157,Tahitian gooseberry tree,Phyllanthus,acidus,Phyllanthus acidus,PHAC3,False,False,False,C
+8160,gamo de costa,Phyllanthus,juglandifolius,Phyllanthus juglandifolius,PHJU2,False,False,False,C
+8162,Phyllanthus orbicularis,Phyllanthus,orbicularis,Phyllanthus orbicularis,PHOR10,False,False,False,C
+8164,Florida bitterbush,Picramnia,pentandra,Picramnia pentandra,PIPE,False,False,False,C
+8167,bitterwood,Picrasma,excelsa,Picrasma excelsa,PIEX,False,False,False,C
+8169,fustic,Pictetia,aculeata,Pictetia aculeata,PIAC,False,False,False,C
+8171,aceitillo,Pilocarpus,racemosus,Pilocarpus racemosus,PIRA3,False,False,False,C
+8173,Royen's tree cactus,Pilosocereus,royenii,Pilosocereus royenii,PIRO6,False,False,False,C
+8175,allspice,Pimenta,dioica,Pimenta dioica,PIDI2,False,False,False,C
+8177,bayrumtree,Pimenta,racemosa,Pimenta racemosa,PIRA,False,False,False,C
+8178,bayrumtree,Pimenta,racemosa var. grisea,Pimenta racemosa var. grisea,PIRAG,False,False,False,C
+8190,higuillo de hoja menuda,Piper,aduncum,Piper aduncum,PIAD,False,False,False,C
+8191,higuillo de limon,Piper,amalago,Piper amalago,PIAM2,False,False,False,C
+8192,moth pepper,Piper,blattarum,Piper blattarum,PIBL,False,False,False,C
+8193,Guyanese pepper,Piper,glabrescens,Piper glabrescens,PIGL3,False,False,False,C
+8194,Jamaican pepper,Piper,hispidum,Piper hispidum,PIHI2,False,False,False,C
+8195,Caracas pepper,Piper,jacquemontianum,Piper jacquemontianum,PIJA,False,False,False,C
+8196,marigold pepper,Piper,marginatum,Piper marginatum,PIMA4,False,False,False,C
+8199,spanish elder,Piper,swartzianum,Piper swartzianum,PISW,False,False,False,C
+8208,stinkwood,Piscidia,carthagenensis,Piscidia carthagenensis,PICA5,False,False,False,C
+887,fishpoison tree,Piscidia,piscipula,Piscidia piscipula,PIPI3,False,True,False,
+8211,corcho bobo,Pisonia,albida,Pisonia albida,PIAL3,False,False,False,C
+8216,water mampoo,Pisonia,subcordata,Pisonia subcordata,PISU,False,False,False,C
+8220,monkeypod,Pithecellobium,dulce,Pithecellobium dulce,PIDU,False,False,False,C
+8223,catclaw blackbead,Pithecellobium,unguis-cati,Pithecellobium unguis-cati,PIUN,False,False,False,C
+722,"water-elm, planertree",Planera,aquatica,Planera aquatica,PLAQ,True,True,False,
+729,sycamore spp.,Platanus,(spp.),Platanus (spp.),PLATA,False,True,True,
+731,American sycamore,Platanus,occidentalis,Platanus occidentalis,PLOC,True,True,False,
+730,California sycamore,Platanus,racemosa,Platanus racemosa,PLRA,True,False,True,
+732,Arizona sycamore,Platanus,wrightii,Platanus wrightii,PLWR2,True,False,True,
+8255,chupa gallo,Pleodendron,macranthum,Pleodendron macranthum,PLMA6,False,False,False,C
+8266,nosegaytree,Plumeria,alba,Plumeria alba,PLAL,False,False,False,C
+8268,Singapore graveyard flower,Plumeria,obtusa,Plumeria obtusa,PLOB2,False,False,False,C
+8269,Plumeria obtusa,Plumeria,obtusa var. obtusa,Plumeria obtusa var. obtusa,PLOBO,False,False,False,C
+8271,templetree,Plumeria,rubra,Plumeria rubra,PLRU2,False,False,False,C
+8275,Poitea florida,Poitea,florida,Poitea florida,POFL20,False,False,False,C
+8276,Poitea punicea,Poitea,punicea,Poitea punicea,POPU19,False,False,False,C
+8279,violet tree,Polygala,cowellii,Polygala cowellii,POCO5,False,False,False,C
+8280,crevajosa,Polygala,penaea,Polygala penaea,POPE13,False,False,False,C
+8284,geranium aralia,Polyscias,guilfoylei,Polyscias guilfoylei,POGU,False,False,False,C
+740,cottonwood and poplar spp.,Populus,(spp.),Populus (spp.),POPUL,False,True,True,
+752,silver poplar,Populus,alba,Populus alba,POAL7,True,True,False,
+749,narrowleaf cottonwood,Populus,angustifolia,Populus angustifolia,POAN3,True,False,True,
+741,balsam poplar,Populus,balsamifera,Populus balsamifera,POBA2,True,True,True,
+747,black cottonwood,Populus,balsamifera ssp. trichocarpa,Populus balsamifera ssp. trichocarpa,POBAT,True,False,True,
+742,eastern cottonwood,Populus,deltoides,Populus deltoides,PODE3,True,True,False,
+745,plains cottonwood,Populus,deltoides ssp. monilifera,Populus deltoides ssp. monilifera,PODEM,True,True,True,
+748,Fremont cottonwood,Populus,fremontii,Populus fremontii,POFR2,True,False,True,
+743,bigtooth aspen,Populus,grandidentata,Populus grandidentata,POGR4,True,True,False,
+744,swamp cottonwood,Populus,heterophylla,Populus heterophylla,POHE4,True,True,False,
+753,Lombardy poplar,Populus,nigra,Populus nigra,PONI,True,True,False,
+746,quaking aspen,Populus,tremuloides,Populus tremuloides,POTR5,True,True,True,
+8300,cocuyo,Pouteria,dictyoneura,Pouteria dictyoneura,PODI5,False,False,False,C
+8301,redmammee,Pouteria,hotteana,Pouteria hotteana,POHO4,False,False,False,C
+8302,bullytree,Pouteria,multiflora,Pouteria multiflora,POMU6,False,False,False,C
+8305,mammee sapote,Pouteria,sapota,Pouteria sapota,POSA13,False,False,False,C
+8311,Prestoea acuminata,Prestoea,acuminata,Prestoea acuminata,PRACM,False,False,False,C
+8340,guasimilla,Prockia,crucis,Prockia crucis,PRCR2,False,False,False,C
+755,mesquite spp.,Prosopis,(spp.),Prosopis (spp.),PROSO,False,True,True,w/C
+8342,jand,Prosopis,cineraria,Prosopis cineraria,PRCI4,False,False,False,C
+756,honey mesquite,Prosopis,glandulosa,Prosopis glandulosa,PRGL2,True,True,True,w
+8344,kiawe,Prosopis,pallida,Prosopis pallida,PRPA4,False,False,False,C
+758,screwbean mesquite,Prosopis,pubescens,Prosopis pubescens,PRPU,True,True,True,w
+757,velvet mesquite,Prosopis,velutina,Prosopis velutina,PRVE,True,True,True,w
+760,cherry and plum spp.,Prunus,(spp.),Prunus (spp.),PRUNU,False,True,True,C
+769,Allegheny plum,Prunus,alleghaniensis,Prunus alleghaniensis,PRAL5,False,True,False,
+766,American plum,Prunus,americana,Prunus americana,PRAM,True,True,False,
+770,Chickasaw plum,Prunus,angustifolia,Prunus angustifolia,PRAN3,False,True,True,
+771,sweet cherry (domesticated),Prunus,avium,Prunus avium,PRAV,True,True,False,
+772,sour cherry (domesticated),Prunus,cerasus,Prunus cerasus,PRCE,False,True,False,
+773,European plum (domesticated),Prunus,domestica,Prunus domestica,PRDO,False,True,False,
+768,bitter cherry,Prunus,emarginata,Prunus emarginata,PREM,False,False,True,
+774,Mahaleb plum (domesticated),Prunus,mahaleb,Prunus mahaleb,PRMA,False,True,False,
+8346,West Indian cherry,Prunus,myrtifolia,Prunus myrtifolia,PRMY,False,False,False,C
+765,Canada plum,Prunus,nigra,Prunus nigra,PRNI,True,True,False,
+8347,western cherry laurel,Prunus,occidentalis,Prunus occidentalis,PROC,False,False,False,C
+761,pin cherry,Prunus,pensylvanica,Prunus pensylvanica,PRPE2,False,True,True,
+764,peach,Prunus,persica,Prunus persica,PRPE3,False,True,False,
+762,black cherry,Prunus,serotina,Prunus serotina,PRSE2,True,True,False,
+8349,Prunus serotina,Prunus,serotina ssp. capuli,Prunus serotina ssp. capuli,PRSEC,False,False,False,C
+763,common chokecherry,Prunus,virginiana,Prunus virginiana,PRVI,False,True,True,
+8352,false breadnut,Pseudolmedia,spuria,Pseudolmedia spuria,PSSP2,False,False,False,C
+8353,Florida cherry palm,Pseudophoenix,sargentii,Pseudophoenix sargentii,PSSA,False,False,False,C
+8354,mountain guava,Psidium,amplexicaule,Psidium amplexicaule,PSAM,False,False,False,C
+8356,guava,Psidium,guajava,Psidium guajava,PSGU,False,False,False,C
+8358,Psidium longipes,Psidium,longipes,Psidium longipes,PSLOO,False,False,False,C
+8359,Sintenis' guava,Psidium,sintenisii,Psidium sintenisii,PSSI2,False,False,False,C
+8361,cachimbo-cumun,Psychotria,berteriana,Psychotria berteriana,PSBE,False,False,False,C
+8362,palo de cachimbo,Psychotria,brachiata,Psychotria brachiata,PSBR2,False,False,False,C
+8363,Browne's wild coffee,Psychotria,brownei,Psychotria brownei,PSBR3,False,False,False,C
+8364,Psychotria domingensis,Psychotria,domingensis,Psychotria domingensis,PSDO2,False,False,False,C
+8367,cachimbo grande,Psychotria,grandis,Psychotria grandis,PSGR2,False,False,False,C
+8389,cachimbo de gato,Psychotria,maleolens,Psychotria maleolens,PSMA4,False,False,False,C
+8391,cachimbo de maricao,Psychotria,maricaensis,Psychotria maricaensis,PSMA5,False,False,False,C
+8394,thicket wild coffee,Psychotria,microdon,Psychotria microdon,PSMI,False,False,False,C
+8395,floating balsamo,Psychotria,nutans,Psychotria nutans,PSNU2,False,False,False,C
+8397,hairy wild coffee,Psychotria,pubescens,Psychotria pubescens,PSPU,False,False,False,C
+8407,pterocarpus,Pterocarpus,indicus,Pterocarpus indicus,PTIN2,False,False,False,C
+8408,Burma padauk,Pterocarpus,macrocarpus,Pterocarpus macrocarpus,PTMA7,False,False,False,C
+8409,Malabar kino,Pterocarpus,marsupium,Pterocarpus marsupium,PTMA3,False,False,False,C
+8410,dragonsblood tree,Pterocarpus,officinalis,Pterocarpus officinalis,PTOF,False,False,False,C
+8419,pomegranate,Punica,granatum,Punica granatum,PUGR2,False,False,False,C
+8422,swizzlestick tree,Quararibea,turbinata,Quararibea turbinata,QUTU,False,False,False,C
+800,oak spp.,Quercus,(spp.),Quercus (spp.),QUERC,False,True,True,
+801,California live oak,Quercus,agrifolia,Quercus agrifolia,QUAG,True,False,True,
+802,white oak,Quercus,alba,Quercus alba,QUAL,True,True,False,
+803,Arizona white oak,Quercus,arizonica,Quercus arizonica,QUAR,True,False,True,w
+804,swamp white oak,Quercus,bicolor,Quercus bicolor,QUBI,True,True,False,
+8513,Spanish oak,Quercus,buckleyi,Quercus buckleyi,QUBU2,False,True,False,
+805,canyon live oak,Quercus,chrysolepis,Quercus chrysolepis,QUCH2,False,False,True,
+806,scarlet oak,Quercus,coccinea,Quercus coccinea,QUCO2,True,True,False,
+807,blue oak,Quercus,douglasii,Quercus douglasii,QUDO,True,False,True,
+809,northern pin oak,Quercus,ellipsoidalis,Quercus ellipsoidalis,QUEL,True,True,False,
+810,Emory oak,Quercus,emoryi,Quercus emoryi,QUEM,True,False,True,w
+811,Engelmann oak,Quercus,engelmannii,Quercus engelmannii,QUEN,True,False,True,
+812,southern red oak,Quercus,falcata,Quercus falcata,QUFA,True,True,False,
+814,Gambel oak,Quercus,gambelii,Quercus gambelii,QUGA,True,False,True,w
+815,Oregon white oak,Quercus,garryana,Quercus garryana,QUGA4,True,False,True,
+851,Chisos oak,Quercus,graciliformis,Quercus graciliformis,QUGR,False,True,False,
+8511,Graves oak,Quercus,gravesii,Quercus gravesii,QUGR2,False,True,False,
+846,gray oak,Quercus,grisea,Quercus grisea,QUGR3,True,False,True,w
+843,silverleaf oak,Quercus,hypoleucoides,Quercus hypoleucoides,QUHY,True,False,True,w
+816,scrub oak,Quercus,ilicifolia,Quercus ilicifolia,QUIL,True,True,False,
+817,shingle oak,Quercus,imbricaria,Quercus imbricaria,QUIM,True,True,False,
+842,bluejack oak,Quercus,incana,Quercus incana,QUIN,True,True,False,
+818,California black oak,Quercus,kelloggii,Quercus kelloggii,QUKE,True,False,True,
+8514,lacey oak,Quercus,laceyi,Quercus laceyi,QULA,False,True,False,
+819,turkey oak,Quercus,laevis,Quercus laevis,QULA2,True,True,False,
+820,laurel oak,Quercus,laurifolia,Quercus laurifolia,QULA3,True,True,False,
+821,California white oak,Quercus,lobata,Quercus lobata,QULO,True,False,True,
+822,overcup oak,Quercus,lyrata,Quercus lyrata,QULY,True,True,False,
+823,bur oak,Quercus,macrocarpa,Quercus macrocarpa,QUMA2,True,True,False,
+840,dwarf post oak,Quercus,margarettae,Quercus margarettae,QUMA6,True,True,False,
+824,blackjack oak,Quercus,marilandica,Quercus marilandica,QUMA3,True,True,False,
+825,swamp chestnut oak,Quercus,michauxii,Quercus michauxii,QUMI,True,True,False,
+841,dwarf live oak,Quercus,minima,Quercus minima,QUMI2,True,True,False,
+826,chinkapin oak,Quercus,muehlenbergii,Quercus muehlenbergii,QUMU,True,True,False,
+827,water oak,Quercus,nigra,Quercus nigra,QUNI,True,True,False,
+829,Mexican blue oak,Quercus,oblongifolia,Quercus oblongifolia,QUOB,True,False,True,w
+844,Oglethorpe oak,Quercus,oglethorpensis,Quercus oglethorpensis,QUOG,True,True,False,
+813,cherrybark oak,Quercus,pagoda,Quercus pagoda,QUPA5,True,True,False,
+830,pin oak,Quercus,palustris,Quercus palustris,QUPA2,True,True,False,
+831,willow oak,Quercus,phellos,Quercus phellos,QUPH,True,True,False,
+8512,Mexican white oak,Quercus,polymorpha,Quercus polymorpha,QUPO2,False,True,False,
+845,dwarf chinkapin oak,Quercus,prinoides,Quercus prinoides,QUPR,False,True,False,
+832,chestnut oak,Quercus,prinus,Quercus prinus,QUPR2,True,True,False,
+833,northern red oak,Quercus,rubra,Quercus rubra,QURU,True,True,False,
+847,netleaf oak,Quercus,rugosa,Quercus rugosa,QURU4,True,False,True,w
+834,Shumard’s oak,Quercus,shumardii,Quercus shumardii,QUSH,True,True,False,
+836,Delta post oak,Quercus,similis,Quercus similis,QUSI2,False,True,False,
+808,Durand oak,Quercus,sinuata var. sinuata,Quercus sinuata var. sinuata,QUSIS,True,True,False,
+835,post oak,Quercus,stellata,Quercus stellata,QUST,True,True,False,
+828,"Nuttall oak, Texas red oak",Quercus,texana,Quercus texana,QUTE,True,True,False,
+837,black oak,Quercus,velutina,Quercus velutina,QUVE,True,True,False,
+838,live oak,Quercus,virginiana,Quercus virginiana,QUVI,True,True,False,
+839,interior live oak,Quercus,wislizeni,Quercus wislizeni,QUWI2,True,False,True,
+8425,white indigoberry,Randia,aculeata,Randia aculeata,RAAC,False,False,False,C
+8433,palo amargo,Rauvolfia,nitida,Rauvolfia nitida,RANI2,False,False,False,C
+8436,traveler's tree,Ravenala,madagascariensis,Ravenala madagascariensis,RAMA7,False,False,False,C
+8439,tortugo prieto,Ravenia,urbanii,Ravenia urbanii,RAUR,False,False,False,C
+8444,guama,Reynosia,guama,Reynosia guama,REGU,False,False,False,C
+8445,Krug's darlingplum,Reynosia,krugii,Reynosia krugii,REKR,False,False,False,C
+8447,sloe,Reynosia,uncinata,Reynosia uncinata,REUN,False,False,False,C
+989,American mangrove,Rhizophora,mangle,Rhizophora mangle,RHMA2,True,True,False,C
+8472,castorbean,Ricinus,communis,Ricinus communis,RICO3,False,False,False,C
+902,New Mexico locust,Robinia,neomexicana,Robinia neomexicana,RONE,False,False,True,w
+901,black locust,Robinia,pseudoacacia,Robinia pseudoacacia,ROPS,True,True,True,
+8476,greenheart ebony,Rochefortia,acanthophora,Rochefortia acanthophora,ROAC2,False,False,False,C
+8478,Rochefortia spinosa,Rochefortia,spinosa,Rochefortia spinosa,ROSP8,False,False,False,C
+8481,wild sugar apple,Rollinia,mucosa,Rollinia mucosa,ROMU3,False,False,False,C
+8483,cordobancillo,Rondeletia,inermis,Rondeletia inermis,ROIN4,False,False,False,C
+8484,cordobancillo peludo,Rondeletia,pilosa,Rondeletia pilosa,ROPI3,False,False,False,C
+8485,Juan Tomas,Rondeletia,portoricensis,Rondeletia portoricensis,ROPO,False,False,False,C
+909,royal palm spp.,Roystonea,(spp.),Roystonea (spp.),ROYST,False,True,False,C
+8489,Puerto Rico royal palm,Roystonea,borinquena,Roystonea borinquena,ROBO,False,False,False,C
+8490,Roystonea elata,Roystonea,elata,Roystonea elata,ROEL,False,False,False,C
+8494,Puerto Rico palmetto,Sabal,causiarum,Sabal causiarum,SACA,False,False,False,C
+911,Mexican palmetto,Sabal,mexicana,Sabal mexicana,SAME8,False,True,False,
+912,cabbage palmetto,Sabal,palmetto,Sabal palmetto,SAPA,True,True,False,
+8499,white hogwood,Sagraea,umbrosa,Sagraea umbrosa,SAUM3,False,False,False,C
+920,willow spp.,Salix,(spp.),Salix (spp.),SALIX,False,True,True,C
+927,white willow,Salix,alba,Salix alba,SAAL2,False,True,True,
+921,peachleaf willow,Salix,amygdaloides,Salix amygdaloides,SAAM2,False,True,True,
+923,Bebb willow,Salix,bebbiana,Salix bebbiana,SABE2,False,True,True,
+924,red willow,Salix,bonplandiana,Salix bonplandiana,SABO,False,False,True,
+925,coastal plain willow,Salix,caroliniana,Salix caroliniana,SACA5,True,True,False,
+8501,Salix humboldtiana,Salix,humboldtiana,Salix humboldtiana,SAHU,False,False,False,C
+922,black willow,Salix,nigra,Salix nigra,SANI,False,True,True,
+926,balsam willow,Salix,pyrifolia,Salix pyrifolia,SAPY,True,True,False,
+928,Scouler’s willow,Salix,scouleriana,Salix scouleriana,SASC,False,False,True,
+929,weeping willow,Salix,sepulcralis,Salix sepulcralis,SASE10,True,True,False,
+8505,raintree,Samanea,saman,Samanea saman,SASA10,False,False,False,C
+8509,common elderberry,Sambucus,nigra,Sambucus nigra,SANIC4,False,False,False,C
+8556,guayabilla,Samyda,dodecandra,Samyda dodecandra,SADO7,False,False,False,C
+8529,wingleaf soapberry,Sapindus,saponaria,Sapindus saponaria,SASA4,False,False,False,C
+919,western soapberry,Sapindus,saponaria var. drummondii,Sapindus saponaria var. drummondii,SASAD,False,True,True,
+8533,gumtree,Sapium,glandulosum,Sapium glandulosum,SAGL5,False,False,False,C
+8535,hinchahuevos,Sapium,laurifolium,Sapium laurifolium,SALA25,False,False,False,C
+8536,milktree,Sapium,laurocerasus,Sapium laurocerasus,SALA8,False,False,False,C
+931,sassafras,Sassafras,albidum,Sassafras albidum,SAAL5,True,True,False,
+8546,amansa guapo,Savia,sessiliflora,Savia sessiliflora,SASE6,False,False,False,C
+8554,Florida boxwood,Schaefferia,frutescens,Schaefferia frutescens,SCFR,False,False,False,C
+888,"schefflera, octopus tree",Schefflera,actinophylla,Schefflera actinophylla,SCAC2,False,True,False,C
+8557,yuquilla,Schefflera,gleasonii,Schefflera gleasonii,SCGL6,False,False,False,C
+8558,matchwood,Schefflera,morototonii,Schefflera morototonii,SCMO10,False,False,False,C
+8563,Brazilian peppertree,Schinus,terebinthifolius,Schinus terebinthifolius,SCTE,False,False,False,C
+8565,Brazilian firetree,Schizolobium,parahybum,Schizolobium parahybum,SCPA23,False,False,False,C
+8567,lac tree,Schleichera,oleosa,Schleichera oleosa,SCOL3,False,False,False,C
+8571,arana,Schoepfia,arenaria,Schoepfia arenaria,SCAR2,False,False,False,C
+8572,white beefwood,Schoepfia,obovata,Schoepfia obovata,SCOB,False,False,False,C
+8573,gulf graytwig,Schoepfia,schreberi,Schoepfia schreberi,SCSC3,False,False,False,C
+8588,emperor's candlesticks,Senna,alata,Senna alata,SEAL4,False,False,False,C
+8589,flor de San Jose,Senna,atomaria,Senna atomaria,SEAT3,False,False,False,C
+8591,false sicklepod,Senna,multijuga,Senna multijuga,SEMU5,False,False,False,C
+8594,retama prieta,Senna,polyphylla,Senna polyphylla,SEPO5,False,False,False,C
+8596,Siamese cassia,Senna,siamea,Senna siamea,SESI3,False,False,False,C
+8597,casia amarilla,Senna,spectabilis,Senna spectabilis,SESP9,False,False,False,C
+8599,Senna sulfurea,Senna,sulfurea,Senna sulfurea,SESU10,False,False,False,C
+8600,glossy shower,Senna,surattensis,Senna surattensis,SESU4,False,False,False,C
+8605,vegetable hummingbird,Sesbania,grandiflora,Sesbania grandiflora,SEGR5,False,False,False,C
+8611,espejuelo,Sideroxylon,cubense,Sideroxylon cubense,SICU7,False,False,False,C
+890,false mastic,Sideroxylon,foetidissimum,Sideroxylon foetidissimum,SIFO,False,True,False,C
+381,"Chittamwood, gum bumelia",Sideroxylon,lanuginosum ssp. lanuginosum,Sideroxylon lanuginosum ssp. lanuginosum,SILAL3,False,True,False,
+8613,breakbill,Sideroxylon,obovatum,Sideroxylon obovatum,SIOB,False,False,False,C
+8614,Puerto Rico bully,Sideroxylon,portoricense,Sideroxylon portoricense,SIPO3,False,False,False,C
+891,"white bully, willow bustic",Sideroxylon,salicifolium,Sideroxylon salicifolium,SISA6,False,True,False,C
+8617,simarouba,Simarouba,(spp.),Simarouba (spp.),SIMAR,False,False,False,C
+895,paradise tree,Simarouba,glauca,Simarouba glauca,SIGL3,False,True,False,
+8619,aceitillo falso,Simarouba,tulae,Simarouba tulae,SITU,False,False,False,C
+8620,hoja menuda,Siphoneugena,densiflora,Siphoneugena densiflora,SIDE6,False,False,False,C
+8622,bullwood,Sloanea,(spp.),Sloanea (spp.),SLOAN,False,False,False,C
+8623,motillo,Sloanea,amygdalina,Sloanea amygdalina,SLAM,False,False,False,C
+8624,bullwood,Sloanea,berteriana,Sloanea berteriana,SLBE,False,False,False,C
+8626,Solanum bahamense,Solanum,bahamense,Solanum bahamense,SOBAB,False,False,False,C
+8627,mullein nightshade,Solanum,donianum,Solanum donianum,SODO3,False,False,False,C
+8629,potatotree,Solanum,erianthum,Solanum erianthum,SOER2,False,False,False,C
+8632,forest nightshade,Solanum,nudum,Solanum nudum,SONU4,False,False,False,C
+8633,cakalaka berry,Solanum,polygamum,Solanum polygamum,SOPO,False,False,False,C
+8634,tabacon aspero,Solanum,rugosum,Solanum rugosum,SORU,False,False,False,C
+8636,turkey berry,Solanum,torvum,Solanum torvum,SOTO4,False,False,False,C
+870,Texas sophora,Sophora,affinis,Sophora affinis,SOAF,False,True,False,
+934,mountain ash spp.,Sorbus,(spp.),Sorbus (spp.),SORBU,False,True,False,
+935,American mountain ash,Sorbus,americana,Sorbus americana,SOAM3,False,True,False,
+936,European mountain ash,Sorbus,aucuparia,Sorbus aucuparia,SOAU,True,True,False,
+937,northern mountain ash,Sorbus,decora,Sorbus decora,SODE3,True,True,False,
+8644,African tuliptree,Spathodea,campanulata,Spathodea campanulata,SPCA2,False,False,False,C
+8649,Spondias dulcis,Spondias,dulcis,Spondias dulcis,SPDU3,False,False,False,C
+8650,yellow mombin,Spondias,mombin,Spondias mombin,SPMO,False,False,False,C
+8652,purple mombin,Spondias,purpurea,Spondias purpurea,SPPU,False,False,False,C
+8654,cobana negra,Stahlia,monosperma,Stahlia monosperma,STMO,False,False,False,C
+8664,Panama tree,Sterculia,apetala,Sterculia apetala,STAP,False,False,False,C
+8666,hazel sterculia,Sterculia,foetida,Sterculia foetida,STFO2,False,False,False,C
+8674,palo de jazmin,Styrax,portoricensis,Styrax portoricensis,STPO3,False,False,False,C
+8676,bay cedar,Suriana,maritima,Suriana maritima,SUMA2,False,False,False,C
+8678,mahogany,Swietenia,(spp.),Swietenia (spp.),SWIET,False,False,False,C
+8679,Honduras mahogany,Swietenia,macrophylla,Swietenia macrophylla,SWMA,False,False,False,C
+940,mahogany,Swietenia,mahagoni,Swietenia mahagoni,SWMA2,False,True,False,C
+8683,nispero cimarron,Symplocos,lanata,Symplocos lanata,SYLA2,False,False,False,C
+8684,Martinique sweetleaf,Symplocos,martinicensis,Symplocos martinicensis,SYMA,False,False,False,C
+8685,aceitunilla,Symplocos,micrantha,Symplocos micrantha,SYMI3,False,False,False,C
+896,Java plum,Syzygium,cumini,Syzygium cumini,SYCU,False,True,False,
+8701,Syzygium jambos,Syzygium,jambos,Syzygium jambos,SYJA,False,False,False,C
+8702,Malaysian apple,Syzygium,malaccense,Syzygium malaccense,SYMA2,False,False,False,C
+8709,roble amarillo,Tabebuia,chrysantha,Tabebuia chrysantha,TACH3,False,False,False,C
+8710,primavera,Tabebuia,donnell-smithii,Tabebuia donnell-smithii,TADO2,False,False,False,C
+8712,roble cimarron,Tabebuia,haemantha,Tabebuia haemantha,TAHA,False,False,False,C
+8713,white cedar,Tabebuia,heterophylla,Tabebuia heterophylla,TAHE,False,False,False,C
+8715,roble de sierra,Tabebuia,rigida,Tabebuia rigida,TARI,False,False,False,C
+8716,pink trumpet-tree,Tabebuia,rosea,Tabebuia rosea,TARO,False,False,False,C
+8717,roble colorado,Tabebuia,schumanniana,Tabebuia schumanniana,TASC2,False,False,False,C
+8720,milkwood,Tabernaemontana,citrifolia,Tabernaemontana citrifolia,TACI,False,False,False,C
+897,tamarind,Tamarindus,indica,Tamarindus indica,TAIN2,False,True,False,C
+991,saltcedar,Tamarix,(spp.),Tamarix (spp.),TAMAR2,False,True,True,C
+8727,Athel tamarisk,Tamarix,aphylla,Tamarix aphylla,TAAP,False,False,False,C
+8743,yellow trumpetbush,Tecoma,stans,Tecoma stans,TEST,False,False,False,C
+8744,teak,Tectona,grandis,Tectona grandis,TEGR,False,False,False,C
+8748,tropical almond,Terminalia,(spp.),Terminalia (spp.),TERMI,False,False,False,C
+8750,troipical almond,Terminalia,catappa,Terminalia catappa,TECA,False,False,False,C
+8754,Ivory Coast almond,Terminalia,ivorensis,Terminalia ivorensis,TEIV2,False,False,False,C
+8756,East Indian almond,Terminalia,myriocarpa,Terminalia myriocarpa,TEMY,False,False,False,C
+8757,Peruvian almond,Terminalia,oblonga,Terminalia oblonga,TEOB,False,False,False,C
+8761,superb terminalia,Terminalia,superba,Terminalia superba,TESU2,False,False,False,C
+8762,saintedwood,Ternstroemia,heptasepala,Ternstroemia heptasepala,TEHE3,False,False,False,C
+8763,palo colorado,Ternstroemia,luquillensis,Ternstroemia luquillensis,TELU2,False,False,False,C
+8764,copey vera,Ternstroemia,peduncularis,Ternstroemia peduncularis,TEPE,False,False,False,C
+8766,mamey de cura,Ternstroemia,stahlii,Ternstroemia stahlii,TEST3,False,False,False,C
+8767,el yunque colorado,Ternstroemia,subsessilis,Ternstroemia subsessilis,TESU,False,False,False,C
+8768,masa,Tetragastris,balsamifera,Tetragastris balsamifera,TEBA,False,False,False,C
+8778,stinkingfish,Tetrazygia,angustifolia,Tetrazygia angustifolia,TEAN2,False,False,False,C
+8780,Puerto Rico clover ash,Tetrazygia,biflora,Tetrazygia biflora,TEBI2,False,False,False,C
+8781,krekre,Tetrazygia,elaeagnoides,Tetrazygia elaeagnoides,TEEL,False,False,False,C
+8783,cenizo,Tetrazygia,urbanii,Tetrazygia urbanii,TEUR,False,False,False,C
+8784,cacao,Theobroma,cacao,Theobroma cacao,THCA,False,False,False,C
+8786,maga,Thespesia,grandiflora,Thespesia grandiflora,THGR2,False,False,False,C
+8787,Portia tree,Thespesia,populnea,Thespesia populnea,THPO3,False,False,False,C
+8789,luckynut,Thevetia,peruviana,Thevetia peruviana,THPE3,False,False,False,C
+8793,ceboruquillo,Thouinia,striata,Thouinia striata,THST2,False,False,False,C
+8794,Puerto Rico ceboruquillo,Thouinia,striata var. portoricensis,Thouinia striata var. portoricensis,THSTP,False,False,False,C
+913,key thatch palm,Thrinax,morrisii,Thrinax morrisii,THMO4,False,True,False,C
+914,Florida thatch palm,Thrinax,radiata,Thrinax radiata,THRA2,False,True,False,
+8803,Brazilian glorytree,Tibouchina,granulosa,Tibouchina granulosa,TIGR3,False,False,False,C
+950,basswood spp.,Tilia,(spp.),Tilia (spp.),TILIA,False,True,False,
+951,American basswood,Tilia,americana,Tilia americana,TIAM,True,True,False,
+953,Carolina basswood,Tilia,americana var. caroliniana,Tilia americana var. caroliniana,TIAMC,False,True,False,
+952,white basswood,Tilia,americana var. heterophylla,Tilia americana var. heterophylla,TIAMH,False,True,False,
+8811,redcedar,Toona,(spp.),Toona (spp.),TOONA,False,False,False,C
+8812,Australian redcedar,Toona,ciliata,Toona ciliata,TOCI,False,False,False,C
+8816,boje,Torralbasia,cuneifolia,Torralbasia cuneifolia,TOCU,False,False,False,C
+8825,cold withe,Tournefortia,filiflora,Tournefortia filiflora,TOFI,False,False,False,C
+8828,Lamarck's trema,Trema,lamarckianum,Trema lamarckianum,TRLA2,False,False,False,C
+8829,Jamaican nettletree,Trema,micranthum,Trema micranthum,TRMI2,False,False,False,C
+994,Chinese tallowtree,Triadica,sebifera,Triadica sebifera,TRSE6,True,True,False,
+8833,broomstick,Trichilia,hirta,Trichilia hirta,TRHI3,False,False,False,C
+8834,gaita,Trichilia,pallida,Trichilia pallida,TRPA2,False,False,False,C
+8836,bariaco,Trichilia,triacantha,Trichilia triacantha,TRTR8,False,False,False,C
+8842,limeberry,Triphasia,trifolia,Triphasia trifolia,TRTR7,False,False,False,C
+8843,Triplaris spp.,Triplaris,(spp.),Triplaris (spp.),TRIPL5,False,False,False,C
+8844,ant tree,Triplaris,cumingiana,Triplaris cumingiana,TRCU6,False,False,False,C
+8848,white ramoon,Trophis,racemosa,Trophis racemosa,TRRA4,False,False,False,C
+8850,muttonwood,Turpinia,occidentalis,Turpinia occidentalis,TUOC,False,False,False,C
+970,elm spp.,Ulmus,(spp.),Ulmus (spp.),ULMUS,False,True,False,
+971,winged elm,Ulmus,alata,Ulmus alata,ULAL,True,True,False,
+972,American elm,Ulmus,americana,Ulmus americana,ULAM,True,True,False,
+973,cedar elm,Ulmus,crassifolia,Ulmus crassifolia,ULCR,True,True,False,
+974,Siberian elm,Ulmus,pumila,Ulmus pumila,ULPU,True,True,False,
+975,slippery elm,Ulmus,rubra,Ulmus rubra,ULRU,True,True,False,
+976,September elm,Ulmus,serotina,Ulmus serotina,ULSE,True,True,False,
+977,rock elm,Ulmus,thomasii,Ulmus thomasii,ULTH,True,True,False,
+981,California laurel,Umbellularia,californica,Umbellularia californica,UMCA,True,False,True,
+8853,scratchbush,Urera,baccifera,Urera baccifera,URBA,False,False,False,C
+8854,flameberry,Urera,caracasana,Urera caracasana,URCA2,False,False,False,C
+8855,ortiga,Urera,chlorocarpa,Urera chlorocarpa,URCH2,False,False,False,C
+8861,voa vanga,Vangueria,madagascariensis,Vangueria madagascariensis,VAMA5,False,False,False,C
+995,tungoil tree,Vernicia,fordii,Vernicia fordii,VEFO,True,True,False,
+8871,lilac chastetree,Vitex,agnus-castus,Vitex agnus-castus,VIAG,False,False,False,C
+8873,higuerillo,Vitex,divaricata,Vitex divaricata,VIDI2,False,False,False,C
+8881,Wallenia lamarckiana,Wallenia,lamarckiana,Wallenia lamarckiana,WALA,False,False,False,C
+8887,bastard briziletto,Weinmannia,pinnata,Weinmannia pinnata,WEPI,False,False,False,C
+8901,tallow wood,Ximenia,americana,Ximenia americana,XIAM,False,False,False,C
+8906,mucha-gente,Xylosma,buxifolia,Xylosma buxifolia,XYBU,False,False,False,C
+8910,spiny logwood,Xylosma,pachyphylla,Xylosma pachyphylla,XYPA2,False,False,False,C
+8912,white logwood,Xylosma,schaefferioides,Xylosma schaefferioides,XYSC2,False,False,False,C
+8913,Schwaneck's logwood,Xylosma,schwaneckeana,Xylosma schwaneckeana,XYSC3,False,False,False,C
+8916,aloe yucca,Yucca,aloifolia,Yucca aloifolia,YUAL,False,False,False,C
+982,Joshua tree,Yucca,brevifolia,Yucca brevifolia,YUBR,False,False,True,
+8918,moundlily yucca,Yucca,gloriosa,Yucca gloriosa,YUGL2,False,False,False,C
+8919,bluestem yucca,Yucca,guatemalensis,Yucca guatemalensis,YUGU,False,False,False,C
+8923,Maricao pricklyash,Zanthoxylum,bifoliolatum,Zanthoxylum bifoliolatum,ZABI,False,False,False,C
+8924,prickly yellow,Zanthoxylum,caribaeum,Zanthoxylum caribaeum,ZACA3,False,False,False,C
+8928,West Indian satinwood,Zanthoxylum,flavum,Zanthoxylum flavum,ZAFL,False,False,False,C
+8931,white pricklyash,Zanthoxylum,martinicense,Zanthoxylum martinicense,ZAMA,False,False,False,C
+8932,yellow prickle,Zanthoxylum,monophyllum,Zanthoxylum monophyllum,ZAMO,False,False,False,C
+8934,dotted pricklyash,Zanthoxylum,punctatum,Zanthoxylum punctatum,ZAPU2,False,False,False,C
+8935,niaragato,Zanthoxylum,spinifex,Zanthoxylum spinifex,ZASP,False,False,False,C
+8937,St. Thomas pricklyash,Zanthoxylum,thomasianum,Zanthoxylum thomasianum,ZATH,False,False,False,C
+8938,Zapoteca portoricensis,Zapoteca,portoricensis,Zapoteca portoricensis,ZAPO2,False,False,False,C
+8939,Indian jujube,Ziziphus,mauritiana,Ziziphus mauritiana,ZIMA,False,False,False,C
+8940,cacao rojo,Ziziphus,reticulata,Ziziphus reticulata,ZIRE,False,False,False,C
+8941,soana,Ziziphus,rignonii,Ziziphus rignonii,ZIRI,False,False,False,C
+8943,Taylor's jujube,Ziziphus,taylorii,Ziziphus taylorii,ZITA,False,False,False,C
+998,unknown dead hardwood,Tree,broadleaf,Tree broadleaf,2TB,True,True,True,C
+999,"other, or unknown live tree",Tree,unknown,Tree unknown,2TREE,True,True,True,C

@@ -1,0 +1,512 @@
+---
+title: "Eyield Demo"
+author: "Quentin Boccaleri"
+date: 10-1-26
+format:
+  beamer:
+    theme: Madrid
+    colortheme: beaver
+    aspectratio: 169
+    fig-width: 5.5
+    fig-height: 2.8
+    fig-align: center
+    fig-format: pdf
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+library(terra)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+# ---- User settings -------------------------------------------------------
+data_file  <- "Database/GA4.csv"
+eco_file   <- "ga_eco_l3/ga_eco_l3.shp"   # needs the .shp/.shx/.dbf/.prj alongside it
+growth_var <- "vol"             # any of: vol, dbh, ht, ba_tree
+min_n      <- 5                 # min trees per species x ecoregion x yr
+out_dir    <- "EnDat"
+dir.create(out_dir, showWarnings = FALSE)
+
+# ---- Read tree data ------------------------------------------------------
+dat_wide <- read.csv(data_file, stringsAsFactors = FALSE) %>%
+  mutate(across(matches("_yr[0-9]+$"), ~ suppressWarnings(as.numeric(.x))))
+
+# ---- Assign ecoregion via spatial join -----------------------------------
+eco_v <- vect(eco_file)[, c("US_L3CODE", "US_L3NAME")]
+
+plots <- dat_wide %>%
+  distinct(statecd, countycd, plot_number, lat, lon)
+
+plots_v <- vect(plots, geom = c("lon", "lat"), crs = "EPSG:4269", keepgeom = TRUE)
+plots_v <- project(plots_v, crs(eco_v))
+
+# terra:: prefix needed because tidyr (loaded after terra) masks extract()
+ex <- terra::extract(eco_v, plots_v)
+ex <- ex[!duplicated(ex$id.y), ]
+plots$US_L3CODE <- ex$US_L3CODE[match(seq_len(nrow(plots)), ex$id.y)]
+plots$US_L3NAME <- ex$US_L3NAME[match(seq_len(nrow(plots)), ex$id.y)]
+
+miss <- is.na(plots$US_L3NAME)
+if (any(miss)) {
+  nn <- terra::nearest(plots_v[miss], eco_v)
+  plots$US_L3CODE[miss] <- eco_v$US_L3CODE[nn$to_id]
+  plots$US_L3NAME[miss] <- eco_v$US_L3NAME[nn$to_id]
+}
+
+plots_eco <- plots %>%
+  select(statecd, countycd, plot_number, lat, lon, eco = US_L3NAME)
+
+dat_wide <- dat_wide %>%
+  left_join(plots_eco, by = c("statecd", "countycd", "plot_number", "lat", "lon"))
+
+# ---- Wide -> long --------------------------------------------------------
+dat <- dat_wide %>%
+  select(tree_id, spcd, eco, matches(paste0("^", growth_var, "_yr[0-9]+$"))) %>%
+  pivot_longer(
+    cols = -c(tree_id, spcd, eco),
+    names_to = "yr",
+    names_prefix = paste0(growth_var, "_yr"),
+    values_to = "value"
+  ) %>%
+  mutate(yr = as.integer(yr)) %>%
+  filter(!is.na(value), !is.na(spcd), !is.na(eco))
+
+# ---- Species growth curves -----------------------------------------------
+raw_by_species <- dat %>%
+  group_by(spcd, yr, eco) %>%
+  summarise(val_med = median(value, na.rm = TRUE), n = n(), .groups = "drop") %>%
+  filter(n >= min_n)
+
+raw_by_species$spcd <- factor(raw_by_species$spcd)
+raw_by_species$eco  <- factor(raw_by_species$eco)
+
+growth_wide <- raw_by_species %>%
+  select(spcd, eco, yr, val_med) %>%
+  pivot_wider(
+    names_from   = yr,
+    values_from  = val_med,
+    names_prefix = "yr_"
+  ) %>%
+  select(spcd, eco, sort(grep("^yr_", names(.), value = TRUE)))
+
+eco_regions <- as.character(unique(growth_wide$eco))
+
+# ---- Shared helper -------------------------------------------------------
+prep_region <- function(region, min_cols = 2) {
+  dat_eco <- growth_wide %>% filter(eco == region)
+
+  feats <- dat_eco %>% select(starts_with("yr_"))
+  feats <- feats[, colSums(!is.na(feats)) > 0, drop = FALSE]
+
+  keep  <- complete.cases(feats)
+  feats <- feats[keep, , drop = FALSE]
+
+  feats <- feats[, apply(feats, 2, function(x) sd(x) > 0), drop = FALSE]
+
+  if (ncol(feats) < min_cols || nrow(feats) == 0) {
+    return(list(x = matrix(nrow = 0, ncol = 0), spcd = character(0)))
+  }
+
+  x <- scale(as.matrix(feats))
+  list(x = x, spcd = as.character(dat_eco$spcd[keep]))
+}
+```
+
+## FIA plots by ecoregion
+
+```{r}
+plot(eco_v, "US_L3NAME", alpha = 0.5, main = "FIA plots by ecoregion",
+     plg = list(cex = 0.7))
+points(plots_v, cex = 0.1, pch = 20)
+```
+
+## Median growth by species
+
+```{r}
+ggplot(raw_by_species, aes(x = yr, y = val_med, color = spcd)) +
+  geom_line(linewidth = 1) +
+  geom_point(size = 2) +
+  facet_wrap(~ eco) +
+  labs(
+    title = paste("Median", growth_var, "by Species"),
+    x     = "Measurement (year index)",
+    y     = "Volume in Cubic Feet",
+    color = "Species"
+  ) +
+  theme_minimal() + theme(legend.position = "none")
+```
+
+## Median growth by species — Piedmont
+
+```{r}
+ggplot(raw_by_species %>% filter(eco == "Piedmont"),
+       aes(x = yr, y = val_med, color = spcd)) +
+  geom_line(linewidth = 1) +
+  geom_point(size = 2) +
+  labs(
+    title = paste("Median", growth_var, "by Species - Piedmont"),
+    x     = "Measurement (year index)",
+    y     = "Volume in Cubic Feet",
+    color = "Species"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
+
+```{r}
+#| include: false
+# ---- Tree-level cluster models (in-sample) -------------------------------
+min_obs <- 30
+ba_type <- "plot"
+
+clusters <- read.csv("EnDat/final.csv") %>%
+  distinct(eco, spcd, consensus_cluster, common) %>%
+  mutate(spcd = as.integer(spcd))
+
+dat_ba <- dat_wide %>%
+  group_by(statecd, countycd, plot_number) %>%
+  mutate(plot_ba_yr1 = sum(ba_acre_yr1, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(ba_yr1 = if (ba_type == "plot") plot_ba_yr1 else ba_acre_yr1)
+
+model_dat <- dat_ba %>%
+  mutate(spcd = as.integer(spcd)) %>%
+  select(tree_id, plot_number, spcd, eco,
+         dbh_yr1, ht_yr1, ba_yr1,
+         matches("^vol_yr[0-9]+$")) %>%
+  pivot_longer(matches("^vol_yr[0-9]+$"),
+               names_to = "yr", names_prefix = "vol_yr",
+               values_to = "vol") %>%
+  mutate(yr = as.integer(yr), time = yr - 1) %>%
+  filter(yr >= 2, !is.na(vol),
+         !is.na(dbh_yr1), !is.na(ht_yr1), !is.na(ba_yr1)) %>%
+  inner_join(clusters, by = c("eco", "spcd"))
+
+groups <- model_dat %>% distinct(eco, consensus_cluster) %>%
+  arrange(eco, consensus_cluster)
+
+models <- list()
+for (i in seq_len(nrow(groups))) {
+  region <- groups$eco[i]
+  cl     <- groups$consensus_cluster[i]
+  d      <- model_dat %>% filter(eco == region, consensus_cluster == cl)
+  if (nrow(d) < min_obs) next
+  models[[paste(region, cl, sep = " | ")]] <-
+    lm(vol ~ dbh_yr1 + ht_yr1 + ba_yr1 + time, data = d)
+}
+
+predict_vol <- function(newdata, models) {
+  newdata$pred_vol <- NA_real_
+  for (key in names(models)) {
+    parts <- strsplit(key, " \\| ")[[1]]
+    idx <- newdata$eco == parts[1] &
+           newdata$consensus_cluster == as.integer(parts[2])
+    if (any(idx)) newdata$pred_vol[idx] <- predict(models[[key]], newdata[idx, ])
+  }
+  newdata
+}
+
+chk <- predict_vol(model_dat, models)
+```
+
+
+## Tree-level equation
+
+One equation per ecoregion $\times$ consensus cluster:
+
+$$
+V = b_0 + b_1 \mathrm{DBH}_1 + b_2 \mathrm{HT}_1 + b_3 \mathrm{BA}_1 + b_4 t
+$$
+
+- $V$ = volume (cubic feet) per tree
+- $\mathrm{DBH}_1$, $\mathrm{HT}_1$ = tree DBH and height at the first measurement
+- $\mathrm{BA}_1$ = stand basal area per acre at the first measurement
+- $t$ = remeasurement periods since the first measurement
+- Groups with fewer than `r min_obs` observations are skipped
+
+
+
+## Observed vs predicted — tree level
+
+```{r}
+plot(chk$vol, chk$pred_vol, pch = 20, cex = 0.3,
+     xlab = "Observed volume ft^3 per tree", ylab = "Predicted volume ft^3 per tree",
+     main = "Observed vs predicted, all ecoregion x cluster models")
+abline(0, 1, col = "red")
+```
+
+## Observed vs predicted by ecoregion — tree level
+
+```{r}
+ggplot(chk %>% filter(!is.na(pred_vol)), aes(x = vol, y = pred_vol)) +
+  geom_point(size = 0.3, alpha = 0.4) +
+  geom_abline(intercept = 0, slope = 1, color = "red") +
+  facet_wrap(~ eco, scales = "free") +
+  labs(x = "Observed volume ft^3 per tree", y = "Predicted volume ft^3 per tree") +
+  theme_minimal() +
+  theme(strip.text = element_text(size = 7))
+```
+
+
+```{r}
+#| include: false
+# ---- Stand vs cluster models on test plots (your code, unchanged) --------
+set.seed(123)
+min_obs <- 30
+
+df_clean <- dat_wide %>%
+  mutate(plot_id = paste(statecd, countycd, plot_number, sep = "_"),
+         spcd    = as.integer(spcd)) %>%
+  select(plot_id, tree_id, spcd, eco, tree_tpa_unadj, lat, lon,
+         matches("^(vol|dbh|ht|ba_acre)_yr[0-9]+$")) %>%
+  pivot_longer(matches("^(vol|dbh|ht|ba_acre)_yr[0-9]+$"),
+               names_to = c(".value", "yr"),
+               names_pattern = "^(vol|dbh|ht|ba_acre)_yr([0-9]+)$") %>%
+  mutate(yr = as.integer(yr), time = yr - 1) %>%
+  filter(!is.na(vol), !is.na(dbh), !is.na(ht), !is.na(ba_acre))
+
+df <- df_clean %>%
+  group_by(plot_id, time) %>%
+  summarise(
+    ba_max_share = ba_acre[which.max(dbh)] / sum(ba_acre),
+    vol_acre     = sum(vol * tree_tpa_unadj),
+    ba_acre      = sum(ba_acre),
+    tpa          = sum(tree_tpa_unadj),
+    qmd          = sqrt(ba_acre / tpa / 0.005454),
+    dbh_max      = max(dbh),
+    dbh_min      = min(dbh),
+    ht_min       = min(ht),
+    ht_max       = max(ht),
+    dbh          = weighted.mean(dbh, tree_tpa_unadj),
+    lat          = first(lat),
+    lon          = first(lon),
+    .groups      = "drop"
+  ) %>%
+  arrange(plot_id, time) %>%
+  group_by(plot_id) %>%
+  filter(all(diff(vol_acre) >= 0), all(vol_acre <= 10000)) %>%
+  mutate(
+    vol_yr1          = first(vol_acre,          order_by = time),
+    ba_yr1           = first(ba_acre,           order_by = time),
+    tpa_yr1          = first(tpa,               order_by = time),
+    qmd_yr1          = first(qmd,               order_by = time),
+    dbh_yr1          = first(dbh,               order_by = time),
+    dbh_max_yr1      = first(dbh_max,           order_by = time),
+    ht_max_yr1       = first(ht_max,            order_by = time),
+    dbh_ratio_yr1    = first(dbh_min / dbh_max, order_by = time),
+    ht_ratio_yr1     = first(ht_min / ht_max,   order_by = time),
+    ba_max_share_yr1 = first(ba_max_share,      order_by = time)
+  ) %>%
+  filter(time != 0) %>%
+  filter(n_distinct(time) >= 3) %>%
+  ungroup()
+
+clusters <- read.csv("EnDat/final.csv") %>%
+  distinct(eco, spcd, consensus_cluster) %>%
+  mutate(spcd = as.integer(spcd))
+
+tree_yr1 <- df_clean %>%
+  filter(time == 0) %>%
+  select(tree_id, dbh_yr1 = dbh, ht_yr1 = ht)
+
+tree_long <- df_clean %>%
+  filter(time != 0) %>%
+  select(plot_id, tree_id, spcd, eco, tree_tpa_unadj, time, vol) %>%
+  inner_join(tree_yr1, by = "tree_id") %>%
+  inner_join(df %>% distinct(plot_id, time, ba_yr1), by = c("plot_id", "time")) %>%
+  left_join(clusters, by = c("eco", "spcd"))
+
+test_plots <- sample(unique(df$plot_id), 30)
+train <- df %>% filter(!plot_id %in% test_plots)
+test  <- df %>% filter( plot_id %in% test_plots)
+tree_train <- tree_long %>% filter(!plot_id %in% test_plots)
+tree_test  <- tree_long %>% filter( plot_id %in% test_plots)
+
+m2 <- lm(log(vol_acre) ~ log(dbh_ratio_yr1) + log(ht_max_yr1) + log(ba_yr1) + log(time),
+         data = train)
+bc <- exp(sigma(m2)^2 / 2)
+train$pred_stand <- exp(predict(m2, newdata = train)) * bc
+test$pred_stand  <- exp(predict(m2, newdata = test))  * bc
+
+form <- vol ~ dbh_yr1 + ht_yr1 + ba_yr1 + time
+
+fit_by <- function(data, group_cols) {
+  data %>%
+    filter(if_all(all_of(group_cols), ~ !is.na(.x))) %>%
+    group_by(across(all_of(group_cols))) %>%
+    filter(n() >= min_obs) %>%
+    group_modify(~ tibble(model = list(lm(form, data = .x)))) %>%
+    ungroup()
+}
+
+mods_cluster <- fit_by(tree_train, c("eco", "consensus_cluster"))
+mods_eco     <- fit_by(tree_train, "eco")
+mod_state    <- lm(form, data = tree_train)
+
+predict_trees <- function(newdata) {
+  newdata$pred_vol <- NA_real_
+  newdata$source   <- NA_character_
+  for (i in seq_len(nrow(mods_cluster))) {
+    idx <- which(newdata$eco == mods_cluster$eco[i] &
+                 newdata$consensus_cluster == mods_cluster$consensus_cluster[i])
+    if (length(idx)) {
+      newdata$pred_vol[idx] <- predict(mods_cluster$model[[i]], newdata[idx, ])
+      newdata$source[idx]   <- "cluster"
+    }
+  }
+  for (i in seq_len(nrow(mods_eco))) {
+    idx <- which(is.na(newdata$pred_vol) & newdata$eco == mods_eco$eco[i])
+    if (length(idx)) {
+      newdata$pred_vol[idx] <- predict(mods_eco$model[[i]], newdata[idx, ])
+      newdata$source[idx]   <- "eco_pooled"
+    }
+  }
+  idx <- which(is.na(newdata$pred_vol))
+  if (length(idx)) {
+    newdata$pred_vol[idx] <- predict(mod_state, newdata[idx, ])
+    newdata$source[idx]   <- "state_pooled"
+  }
+  newdata$pred_vol <- pmax(newdata$pred_vol, 0)
+  newdata
+}
+
+roll_up <- function(tree_pred) {
+  tree_pred %>%
+    group_by(plot_id, time) %>%
+    summarise(pred_cluster = sum(pred_vol * tree_tpa_unadj), .groups = "drop")
+}
+
+test  <- test  %>% left_join(roll_up(predict_trees(tree_test)),  by = c("plot_id", "time"))
+train <- train %>% left_join(roll_up(predict_trees(tree_train)), by = c("plot_id", "time"))
+
+fit_stats <- function(obs, pred) {
+  ok <- complete.cases(obs, pred)
+  obs <- obs[ok]; pred <- pred[ok]
+  c(RMSE = sqrt(mean((obs - pred)^2)),
+    Bias = mean(pred - obs),
+    R2   = cor(obs, pred)^2,
+    n    = length(obs))
+}
+
+stats <- rbind(
+  `Stand - Train`   = fit_stats(train$vol_acre, train$pred_stand),
+  `Stand - Test`    = fit_stats(test$vol_acre,  test$pred_stand),
+  `Cluster - Train` = fit_stats(train$vol_acre, train$pred_cluster),
+  `Cluster - Test`  = fit_stats(test$vol_acre,  test$pred_cluster)
+)
+
+# ---- Attach ecoregion to stand-level rows --------------------------------
+plot_eco <- df_clean %>% distinct(plot_id, eco) %>% distinct(plot_id, .keep_all = TRUE)
+train <- train %>% left_join(plot_eco, by = "plot_id")
+test  <- test  %>% left_join(plot_eco, by = "plot_id")
+```
+
+## Stand-level equation
+
+$$
+\ln(V) = b_0 + b_1 \ln(\mathrm{DBH\ ratio}_1) + b_2 \ln(\mathrm{HT}_{\max,1}) + b_3 \ln(\mathrm{BA}_1) + b_4 \ln(t)
+$$
+
+```{r}
+#| results: asis
+cf <- coef(m2)
+cat(sprintf(
+  "$$\\ln(V) = %.3f %+.3f\\ln(\\mathrm{DBH\\ ratio}_1) %+.3f\\ln(\\mathrm{HT}_{\\max,1}) %+.3f\\ln(\\mathrm{BA}_1) %+.3f\\ln(t)$$\n\n",
+  cf[1], cf[2], cf[3], cf[4], cf[5]))
+cat(sprintf("- $V$ = volume per acre; back-transformed with Baskerville correction $e^{\\sigma^2/2}$ = %.3f\n", bc))
+cat("- DBH ratio is the ratio of min. DBH to max. DBH recorded in the first measurement year within the plot\n")
+cat("- HT max is the height of the tallest tree in the first measurement year within the plot\n")
+cat("- BA is basal area per acre in the first measurement year within the plot\n")
+cat(sprintf("- Adj. $R^2$ (log scale) = %.3f, $n$ = %d training plot-measurements\n",
+            summary(m2)$adj.r.squared, nobs(m2)))
+```
+
+
+## Observed vs predicted — stand level
+
+```{r}
+plot(train$vol_acre, train$pred_stand, pch = 20, cex = 0.5,
+     xlab = "Observed Volume ft^3 per Acre", ylab = "Predicted Volume ft^3 per Acre",
+     main = "Observed vs predicted, stand-level model (training plots)")
+abline(0, 1, col = "red")
+```
+
+
+## Observed vs predicted by ecoregion — stand level
+
+```{r}
+ggplot(train, aes(x = vol_acre, y = pred_stand)) +
+  geom_point(size = 0.6, alpha = 0.5) +
+  geom_abline(intercept = 0, slope = 1, color = "red") +
+  facet_wrap(~ eco, scales = "free") +
+  labs(x = "Observed Volume ft^3 per Acre", y = "Predicted Volume ft^3 per Acre") +
+  theme_minimal() +
+  theme(strip.text = element_text(size = 7))
+```
+
+## Stand vs tree-level models — test plots
+
+```{r}
+lims <- range(c(test$vol_acre, test$pred_stand, test$pred_cluster), na.rm = TRUE)
+cols <- setNames(rainbow(length(test_plots)), test_plots)
+
+op <- par(mfrow = c(1, 2))
+for (mdl in c("pred_stand", "pred_cluster")) {
+  lab <- if (mdl == "pred_stand") "Stand model" else "Cluster tree models"
+  key <- if (mdl == "pred_stand") "Stand - Test" else "Cluster - Test"
+
+  plot(test$vol_acre, test[[mdl]],
+       pch = 16, col = cols[test$plot_id], cex = 1.3,
+       xlim = lims, ylim = lims, asp = 1,
+       xlab = "Observed Volume ft^3 per Acre",
+       ylab = "Predicted Volume ft^3 per Acre",
+       main = paste("O vs. P -", lab))
+  abline(a = 0, b = 1, col = "red", lwd = 2, lty = 2)
+  grid()
+  for (p in test_plots) {
+    d <- test[test$plot_id == p, ]
+    d <- d[order(d$time), ]
+    lines(d$vol_acre, d[[mdl]], col = cols[p])
+  }
+}
+par(op)
+```
+
+## Test plots by ecoregion — stand vs tree-level models
+
+```{r}
+test %>%
+  pivot_longer(c(pred_stand, pred_cluster), names_to = "model", values_to = "pred") %>%
+  mutate(model = ifelse(model == "pred_stand", "Stand model", "Cluster tree models")) %>%
+  arrange(plot_id, model, time) %>%
+  ggplot(aes(x = vol_acre, y = pred, color = model)) +
+  geom_path(aes(group = interaction(plot_id, model)), alpha = 0.6) +
+  geom_point(size = 1.5) +
+  geom_abline(intercept = 0, slope = 1, color = "red", linetype = 2) +
+  facet_wrap(~ eco, scales = "free") +
+  labs(x = "Observed Volume ft^3 per Acre", y = "Predicted Volume ft^3 per Acre", color = NULL) +
+  theme_minimal() +
+  theme(legend.position = "bottom", strip.text = element_text(size = 7))
+```
+
+## Conclusion
+
+### Summary
+
+- Both the stand-level and tree-level models preformed decently when applied to novel training data. 
+- Stand-level has better fit when it comes to training data.
+-Tree-level had a slightly better RMSE when compared to stand-level for the test data. 
+- Tree-level models need to be optimized for each cluster to improve the fit. 
+
+
+### Next Steps
+- Fine tune the hyperparameters for the cluster models. 
+- Create a system of models (unique optimized model for each cluster). 
+- Explore alternative forms for the stand-level model. 
+- Expand across the Southeast.
